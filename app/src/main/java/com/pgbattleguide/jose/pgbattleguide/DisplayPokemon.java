@@ -37,10 +37,12 @@ public class DisplayPokemon extends AppCompatActivity {
         //Get last query
         Intent intent = getIntent();
         if (intent.hasExtra(MainActivity.POKE_URI)) {
-            String pokeUri = intent.getStringExtra(MainActivity.POKE_URI);
-            int id = getResources().getIdentifier(pokeUri, null, null);
-            pokePicView.setImageResource(id);
-            currentPokeNo = Integer.parseInt(pokeUri.substring(47));
+            int pokeUri = intent.getIntExtra(MainActivity.POKE_URI, 0);
+            int pokeNumber = intent.getIntExtra(MainActivity.POKE_NO, 1);
+            //int id = getResources().getIdentifier(pokeUri, null, null);
+            pokePicView.setImageResource(pokeUri);
+            //currentPokeNo = Integer.parseInt(pokeUri.substring(47));
+            currentPokeNo = pokeNumber;
         }
 
         searchPokemon();

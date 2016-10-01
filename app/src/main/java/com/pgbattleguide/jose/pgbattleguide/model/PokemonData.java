@@ -16,15 +16,17 @@ public class PokemonData {
     private int mMaxDuel;
     private int mMaxDefense;
     private int mMaxOffense;
+    private int mPhotoID;
 
     public PokemonData(int number, String name, List<Integer> tankiness, List<Integer> duel,
-                       List<Integer> defense, List<Integer> offense) {
+                       List<Integer> defense, List<Integer> offense, int photoID) {
         mNumber = number;
         mName = name;
         mTankiness = tankiness;
         mDuel = duel;
         mDefense = defense;
         mOffense = offense;
+        mPhotoID = photoID;
 
         getMaxStats();
     }
@@ -67,6 +69,10 @@ public class PokemonData {
 
     public int getMaxOffense() {
         return mMaxOffense;
+    }
+
+    public int getPhotoID() {
+        return mPhotoID;
     }
 
     private void getMaxStats() {

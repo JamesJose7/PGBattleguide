@@ -12,10 +12,13 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.GridLayout;
 import android.widget.ImageView;
@@ -26,6 +29,7 @@ import android.widget.Toast;
 import com.pgbattleguide.jose.pgbattleguide.controller.CSVReader;
 import com.pgbattleguide.jose.pgbattleguide.model.CustomComparator;
 import com.pgbattleguide.jose.pgbattleguide.model.PokemonData;
+import com.pgbattleguide.jose.pgbattleguide.model.RecyclerViewAdapter;
 import com.pkmmte.view.CircularImageView;
 
 
@@ -40,14 +44,20 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static Context mContext;
+    private static Point mSize;
+
 
     public static final String POKE_URI = "Poke uri";
+    public static final String POKE_NO = "Poke number";
     public static final String PKMN_DRAWABLE_DIR = "com.pgbattleguide.jose.pgbattleguide:drawable/p";
 
     protected EditText searchBar;
     protected FloatingActionButton fab;
     protected ImageView mSearchButton;
     protected RelativeLayout mMainContainer;
+    private GridLayoutManager lLayout;
+    private RecyclerView mRecyclerView;
 
     protected ProgressBar mProgressBar;
 
@@ -62,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        mContext = getApplicationContext();
+
+        mSize = new Point();
+        getWindowManager().getDefaultDisplay().getSize(mSize);
 
 
         //Main display
@@ -75,12 +89,20 @@ public class MainActivity extends AppCompatActivity {
         loadPokemonData();
         //Display pkmns
         getImagesUris();
-        runOnUiThread(new Runnable() {
+
+        //TEMP
+        lLayout = new GridLayoutManager(MainActivity.this, 5);
+        mRecyclerView = (RecyclerView) findViewById(R.id.bubbleGrid);
+        mRecyclerView.setLayoutManager(lLayout);
+        RecyclerViewAdapter rcAdapter = new RecyclerViewAdapter(MainActivity.this, mPokemons);
+        mRecyclerView.setAdapter(rcAdapter);
+        //sad
+        /*runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 updateDisplay(false);
             }
-        });
+        });*/
 
 
         mSearchButton.setOnClickListener(new View.OnClickListener() {
@@ -90,12 +112,14 @@ public class MainActivity extends AppCompatActivity {
                 //Get query
                 getQuery();
                 getFilteredPokemon();
-                runOnUiThread(new Runnable() {
+                RecyclerViewAdapter rcAdapter = new RecyclerViewAdapter(MainActivity.this, mFilteredPokemon);
+                mRecyclerView.setAdapter(rcAdapter);
+                /*runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         updateDisplay(true);
                     }
-                });
+                });*/
             }
         });
 
@@ -124,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
         List<Integer> duel = new ArrayList<>();
         List<Integer> defense = new ArrayList<>();
         List<Integer> offense = new ArrayList<>();
+        int id = 0;
         for (String[] row : results) {
             if (counter != 0) {
                 //Loop for each pokemon set of data
@@ -135,7 +160,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (isNewPokemon) {
-                    mPokemons.add(new PokemonData(number, name, tankiness, duel, defense, offense));
+                    final String pokeURI = MainActivity.PKMN_DRAWABLE_DIR + number;
+                    id = getResources().getIdentifier(pokeURI, null, null);
+                    mPokemons.add(new PokemonData(number, name, tankiness, duel, defense, offense, id));
 
                     tankiness = new ArrayList<>();
                     duel = new ArrayList<>();
@@ -153,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
             }
             counter++;
         }
-        mPokemons.add(new PokemonData(number, name, tankiness, duel, defense, offense));
+        mPokemons.add(new PokemonData(number, name, tankiness, duel, defense, offense, id));
     }
 
     private void getFilteredPokemon() {
@@ -329,14 +356,34 @@ public class MainActivity extends AppCompatActivity {
                 sortPokemonBy(CustomComparator.Order.Number);
         }
 
-        //getQuery();
-        //getFilteredPokemon();
-        runOnUiThread(new Runnable() {
+        getQuery();
+        getFilteredPokemon();
+        RecyclerViewAdapter rcAdapter;
+        if (mFilteredPokemon.size() > 0)
+            rcAdapter = new RecyclerViewAdapter(MainActivity.this, mFilteredPokemon);
+        else
+            rcAdapter = new RecyclerViewAdapter(MainActivity.this, mPokemons);
+        mRecyclerView.setAdapter(rcAdapter);
+        /*runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 updateDisplay(true);
             }
-        });
+        });*/
+
 
     }
+
+    public static Context getContext() {
+        return mContext;
+    }
+
+    public static int getWidth() {
+
+
+        int screenWidth = mSize.x;
+        int thirdScreenWidth = (int) (screenWidth * 0.2 - 7);
+        return thirdScreenWidth;
+    }
+
 }

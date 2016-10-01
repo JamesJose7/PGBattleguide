@@ -12,7 +12,7 @@ public class CustomComparator implements Comparator<PokemonData> {
     @Override
     public int compare(PokemonData o1, PokemonData o2) {
         switch (sortingBy) {
-            case Number: return compare(o1.getNumber(), o2.getNumber());
+            case Number: return compare(o2.getNumber(), o1.getNumber());
             case Tankiness: return compare(o1.getMaxTankiness(), o2.getMaxTankiness());
             case Duel: return compare(o1.getMaxDuel(), o2.getMaxDuel());
             case Offense: return compare(o1.getMaxOffense(), o2.getMaxOffense());
@@ -26,8 +26,8 @@ public class CustomComparator implements Comparator<PokemonData> {
     }
 
     public static int compare(int x, int y) {
-        return x < y ? -1
-                : x > y ? 1
+        return x > y ? -1
+                : x < y ? 1
                 : 0;
     }
 }
