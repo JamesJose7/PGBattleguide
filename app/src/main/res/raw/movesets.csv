@@ -1,0 +1,896 @@
+#,Offense Rank,%ile,Defense Rank,%ile,PKMN #,Name,Tankiness,Duel Ability,Gym Offense,Gym Defense,Basic Atk,No Weave Dmg/100s,Charge Atk,Weave Damage/100s,Gym Weave Damage/100s
+1,1,1,4,0.84,1,Bulbasaur,19,11,41,8,Vine Whip,1338.75,Sludge Bomb,1665,563.75
+3,2,0.99,6,0.72,1,Bulbasaur,19,10,41,6,Vine Whip,1338.75,Power Whip,1645,481.25
+2,3,0.91,3,0.86,1,Bulbasaur,19,10,37,8,Vine Whip,1338.75,Seed Bomb,1517.5,571.25
+4,4,0.88,1,1,1,Bulbasaur,19,9,36,9,Tackle,1080,Sludge Bomb,1464.25,667.75
+6,5,0.83,5,0.8,1,Bulbasaur,19,9,34,7,Tackle,1080,Power Whip,1389,535
+5,6,0.82,2,0.97,1,Bulbasaur,19,9,34,9,Tackle,1080,Seed Bomb,1362,650
+11,1,1,4,0.74,2,Ivysaur,32,24,55,17,Vine Whip,1338.75,Solar Beam,1810,588.75
+8,2,0.93,2,0.97,2,Ivysaur,32,23,52,22,Razor Leaf,1275,Solar Beam,1687.5,768.75
+10,3,0.92,5,0.71,2,Ivysaur,32,22,51,16,Vine Whip,1338.75,Sludge Bomb,1665,563.75
+12,4,0.91,6,0.61,2,Ivysaur,32,22,50,14,Vine Whip,1338.75,Power Whip,1645,481.25
+7,5,0.87,1,1,2,Ivysaur,32,21,48,23,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+9,6,0.86,3,0.86,2,Ivysaur,32,21,48,20,Razor Leaf,1275,Power Whip,1556.25,681.25
+18,1,1,5,0.7,3,Venusaur,55,53,71,37,Vine Whip,1338.75,Solar Beam,1810,588.75
+17,2,0.93,4,0.72,3,Venusaur,55,49,66,38,Vine Whip,1338.75,Petal Blizzard,1690,605
+15,3,0.93,3,0.92,3,Venusaur,55,49,66,48,Razor Leaf,1275,Solar Beam,1687.5,768.75
+16,4,0.92,6,0.67,3,Venusaur,55,48,65,35,Vine Whip,1338.75,Sludge Bomb,1665,563.75
+14,5,0.89,1,1,3,Venusaur,55,47,63,52,Razor Leaf,1275,Petal Blizzard,1618.75,837.5
+13,6,0.87,2,0.95,3,Venusaur,55,46,61,50,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+24,1,1,5,0.7,4,Charmander,14,7,40,5,Scratch,1200,Flamethrower,1586.5,479
+21,2,0.94,1,1,4,Charmander,14,7,37,7,Ember,1187.5,Flamethrower,1493.75,681.25
+23,3,0.84,4,0.71,4,Charmander,14,6,33,5,Scratch,1200,Flame Burst,1335,486
+20,4,0.83,2,0.95,4,Charmander,14,6,33,6,Ember,1187.5,Flame Burst,1312.5,650
+22,5,0.76,6,0.65,4,Charmander,14,5,30,4,Scratch,1200,Flame Charge,971.75,443.25
+19,6,0.75,3,0.83,4,Charmander,14,5,30,6,Ember,1187.5,Flame Charge,981.25,562.5
+30,1,1,6,0.7,5,Charmeleon,28,19,50,12,Scratch,1200,Flamethrower,1586.5,479
+27,2,0.94,1,1,5,Charmeleon,28,17,47,17,Ember,1187.5,Flamethrower,1493.75,681.25
+28,3,0.86,4,0.72,5,Charmeleon,28,16,43,12,Scratch,1200,Fire Punch,1372,492
+25,4,0.84,2,0.97,5,Charmeleon,28,16,42,17,Ember,1187.5,Fire Punch,1337.5,662.5
+29,5,0.84,5,0.71,5,Charmeleon,28,16,42,12,Scratch,1200,Flame Burst,1335,486
+26,6,0.83,3,0.95,5,Charmeleon,28,15,41,16,Ember,1187.5,Flame Burst,1312.5,650
+34,1,1,3,0.91,6,Charizard,49,50,76,37,Wing Attack,1496.25,Fire Blast,1830,621.25
+36,2,0.92,2,0.92,6,Charizard,49,47,71,37,Wing Attack,1496.25,Flamethrower,1690,623.75
+31,3,0.87,4,0.9,6,Charizard,49,44,67,36,Ember,1187.5,Fire Blast,1600,612.5
+35,4,0.85,6,0.75,6,Charizard,49,43,65,30,Wing Attack,1496.25,Dragon Claw,1557.5,511.25
+33,5,0.82,1,1,6,Charizard,49,41,62,40,Ember,1187.5,Flamethrower,1493.75,681.25
+32,6,0.73,5,0.79,6,Charizard,49,37,55,32,Ember,1187.5,Dragon Claw,1330,537.5
+38,1,1,1,1,7,Squirtle,21,10,34,13,Bubble,1343.75,Aqua Tail,1575,981.25
+41,2,0.87,6,0.62,7,Squirtle,21,8,30,8,Tackle,1080,Aqua Tail,1362.75,605.25
+39,3,0.85,2,0.92,7,Squirtle,21,8,29,12,Bubble,1343.75,Water Pulse,1231.25,900
+37,3,0.85,3,0.89,7,Squirtle,21,8,29,12,Bubble,1343.75,Aqua Jet,1187.5,875
+42,5,0.71,4,0.63,7,Squirtle,21,7,24,8,Tackle,1080,Water Pulse,1124.25,614
+40,6,0.69,5,0.62,7,Squirtle,21,7,24,8,Tackle,1080,Aqua Jet,1085.75,607.75
+45,1,1,3,0.95,8,Wartortle,36,26,53,14,Water Gun,1500,Hydro Pump,1882.5,495
+48,2,0.9,6,0.84,8,Wartortle,36,23,48,13,Bite,1200,Hydro Pump,1686,441
+44,3,0.81,2,0.97,8,Wartortle,36,21,43,15,Water Gun,1500,Ice Beam,1530,507.5
+43,4,0.8,1,1,8,Wartortle,36,20,42,15,Water Gun,1500,Aqua Jet,1228.75,522.5
+47,5,0.73,5,0.88,8,Wartortle,36,19,39,13,Bite,1200,Ice Beam,1380,458
+46,6,0.64,4,0.92,8,Wartortle,36,16,34,14,Bite,1200,Aqua Jet,1126.75,480.5
+51,1,1,4,0.86,9,Blastoise,60,56,69,32,Water Gun,1500,Hydro Pump,1882.5,495
+54,2,0.9,6,0.76,9,Blastoise,60,50,62,28,Bite,1200,Hydro Pump,1686,441
+50,3,0.81,3,0.88,9,Blastoise,60,46,56,32,Water Gun,1500,Ice Beam,1530,507.5
+49,4,0.8,1,1,9,Blastoise,60,45,55,37,Water Gun,1500,Flash Cannon,1410,577.5
+53,5,0.73,5,0.79,9,Blastoise,60,41,50,29,Bite,1200,Ice Beam,1380,458
+52,6,0.69,2,0.92,9,Blastoise,60,39,47,34,Bite,1200,Flash Cannon,1296,534
+55,1,1,2,0.76,10,Caterpie,10,2,17,1,Bug Bite,1387.5,Struggle,951.25,343.75
+56,2,0.78,1,1,10,Caterpie,10,1,13,1,Tackle,1080,Struggle,894,453
+57,1,1,2,0.76,11,Metapod,14,3,15,1,Bug Bite,1387.5,Struggle,951.25,343.75
+58,2,0.78,1,1,11,Metapod,14,2,11,2,Tackle,1080,Struggle,894,453
+59,1,1,4,0.74,12,Butterfree,30,19,49,14,Bug Bite,1387.5,Bug Buzz,1718.75,581.25
+60,2,0.89,6,0.56,12,Butterfree,30,17,43,10,Bug Bite,1387.5,Psychic,1525,438.75
+61,3,0.87,5,0.69,12,Butterfree,30,17,42,13,Bug Bite,1387.5,Signal Beam,1493.75,537.5
+62,4,0.81,1,1,12,Butterfree,30,16,39,19,Confusion,990,Bug Buzz,1398.75,783.75
+64,5,0.73,2,0.96,12,Butterfree,30,14,35,18,Confusion,990,Signal Beam,1256.25,750
+63,6,0.72,3,0.84,12,Butterfree,30,14,35,16,Confusion,990,Psychic,1235,660
+65,1,1,2,0.9,13,Weedle,8,2,18,1,Bug Bite,1387.5,Struggle,951.25,343.75
+66,2,0.94,1,1,13,Weedle,8,2,17,1,Poison Sting,1297.5,Struggle,930,382.5
+67,1,1,2,0.9,14,Kakuna,12,2,17,1,Bug Bite,1387.5,Struggle,951.25,343.75
+68,2,0.94,1,1,14,Kakuna,12,2,15,1,Poison Sting,1297.5,Struggle,930,382.5
+69,1,1,5,0.66,15,Beedrill,29,19,50,11,Bug Bite,1387.5,Sludge Bomb,1768.75,493.75
+72,2,0.95,1,1,15,Beedrill,29,18,48,18,Poison Jab,1425,Sludge Bomb,1686.25,748.75
+71,3,0.87,4,0.68,15,Beedrill,29,17,44,12,Bug Bite,1387.5,X-Scissor,1543.75,512.5
+74,4,0.86,2,0.93,15,Beedrill,29,17,43,16,Poison Jab,1425,X-Scissor,1525,696.25
+73,5,0.81,3,0.8,15,Beedrill,29,16,40,14,Poison Jab,1425,Aerial Ace,1125,600
+70,6,0.78,6,0.56,15,Beedrill,29,15,39,10,Bug Bite,1387.5,Aerial Ace,1057.5,421.25
+79,1,1,1,1,16,Pidgey,12,4,25,4,Tackle,1350,Aerial Ace,1215,645
+80,1,1,2,0.98,16,Pidgey,12,4,25,4,Tackle,1350,Air Cutter,1147.5,630
+78,1,1,5,0.88,16,Pidgey,12,4,25,3,Tackle,1350,Twister,1020,565
+76,4,0.76,3,0.91,16,Pidgey,12,3,19,3,Quick Attack,937.5,Aerial Ace,1025,587.5
+77,5,0.71,4,0.89,16,Pidgey,12,3,17,3,Quick Attack,937.5,Air Cutter,962.5,575
+75,6,0.69,6,0.79,16,Pidgey,12,2,17,3,Quick Attack,937.5,Twister,837.5,512.5
+82,1,1,3,0.89,17,Pidgeotto,26,13,37,10,Wing Attack,1496.25,Aerial Ace,1275,566.25
+83,1,1,5,0.87,17,Pidgeotto,26,13,37,10,Wing Attack,1496.25,Air Cutter,1203.75,555
+81,1,1,6,0.79,17,Pidgeotto,26,13,37,9,Wing Attack,1496.25,Twister,1080,506.25
+85,4,0.75,1,1,17,Pidgeotto,26,10,28,12,Steel Wing,1125,Aerial Ace,1110,637.5
+86,4,0.75,2,0.98,17,Pidgeotto,26,10,28,12,Steel Wing,1125,Air Cutter,1042.5,622.5
+84,4,0.75,4,0.88,17,Pidgeotto,26,10,28,10,Steel Wing,1125,Twister,915,560
+87,1,1,4,0.9,18,Pidgeot,47,38,59,26,Wing Attack,1496.25,Hurricane,1758.75,571.25
+88,2,0.85,5,0.89,18,Pidgeot,47,32,50,26,Wing Attack,1496.25,Aerial Ace,1275,566.25
+89,2,0.85,6,0.87,18,Pidgeot,47,32,50,25,Wing Attack,1496.25,Air Cutter,1203.75,555
+90,4,0.84,3,0.95,18,Pidgeot,47,31,49,28,Steel Wing,1125,Hurricane,1470,605
+91,5,0.64,1,1,18,Pidgeot,47,24,37,29,Steel Wing,1125,Aerial Ace,1110,637.5
+92,5,0.64,2,0.98,18,Pidgeot,47,24,37,29,Steel Wing,1125,Air Cutter,1042.5,622.5
+95,1,1,3,0.93,19,Rattata,8,3,29,3,Tackle,1350,Body Slam,1640,670
+94,2,0.91,2,0.97,19,Rattata,8,3,27,3,Tackle,1350,Hyper Fang,1495,696.25
+93,3,0.82,1,1,19,Rattata,8,2,24,3,Tackle,1350,Dig,1195,720
+98,4,0.82,6,0.87,19,Rattata,8,2,24,2,Quick Attack,937.5,Body Slam,1337.5,625
+97,5,0.74,5,0.89,19,Rattata,8,2,22,3,Quick Attack,937.5,Hyper Fang,1218.75,637.5
+96,6,0.63,4,0.9,19,Rattata,8,2,18,3,Quick Attack,937.5,Dig,1037.5,645
+101,1,1,5,0.79,20,Raticate,28,19,51,12,Bite,1200,Hyper Beam,1788,510
+100,2,0.81,6,0.71,20,Raticate,28,16,41,11,Bite,1200,Hyper Fang,1451,460.5
+104,3,0.8,3,0.97,20,Raticate,28,15,41,15,Quick Attack,937.5,Hyper Beam,1425,625
+103,4,0.68,2,0.99,20,Raticate,28,13,35,15,Quick Attack,937.5,Hyper Fang,1218.75,637.5
+99,5,0.67,4,0.79,20,Raticate,28,13,34,12,Bite,1200,Dig,1136,512
+102,6,0.58,1,1,20,Raticate,28,11,30,15,Quick Attack,937.5,Dig,1037.5,645
+106,1,1,2,0.96,21,Spearow,10,3,26,4,Peck,1075,Drill Peck,1300,650
+109,2,0.93,1,1,21,Spearow,10,3,24,4,Quick Attack,937.5,Drill Peck,1212.5,675
+105,3,0.84,3,0.87,21,Spearow,10,3,21,3,Peck,1075,Aerial Ace,1087.5,587.5
+107,4,0.83,5,0.76,21,Spearow,10,3,21,3,Peck,1075,Twister,900,512.5
+108,5,0.79,3,0.87,21,Spearow,10,3,20,3,Quick Attack,937.5,Aerial Ace,1025,587.5
+110,6,0.72,5,0.76,21,Spearow,10,2,18,3,Quick Attack,937.5,Twister,837.5,512.5
+115,1,1,1,1,22,Fearow,32,17,40,21,Steel Wing,1125,Drill Run,1205,665
+112,2,0.98,3,0.9,22,Fearow,32,17,39,19,Peck,1075,Drill Run,1175,600
+114,3,0.93,2,0.96,22,Fearow,32,16,37,20,Steel Wing,1125,Aerial Ace,1110,637.5
+116,3,0.93,5,0.84,22,Fearow,32,16,37,17,Steel Wing,1125,Twister,915,560
+111,5,0.9,4,0.88,22,Fearow,32,16,36,18,Peck,1075,Aerial Ace,1087.5,587.5
+113,6,0.89,6,0.77,22,Fearow,32,15,35,16,Peck,1075,Twister,900,512.5
+118,1,1,2,0.86,23,Ekans,13,6,37,5,Poison Sting,1297.5,Sludge Bomb,1697.5,583.75
+119,2,0.96,5,0.63,23,Ekans,13,6,36,3,Poison Sting,1297.5,Gunk Shot,1623.75,432.5
+121,3,0.9,1,1,23,Ekans,13,6,33,5,Acid,1187.5,Sludge Bomb,1531.25,681.25
+122,4,0.86,3,0.79,23,Ekans,13,5,32,4,Acid,1187.5,Gunk Shot,1456.25,537.5
+117,5,0.76,6,0.58,23,Ekans,13,5,28,3,Poison Sting,1297.5,Wrap,760,397.5
+120,6,0.7,4,0.68,23,Ekans,13,4,26,4,Acid,1187.5,Wrap,750,462.5
+125,1,1,6,0.64,24,Arbok,34,23,51,12,Bite,1200,Gunk Shot,1553.25,384.5
+124,2,0.98,5,0.65,24,Arbok,34,23,50,12,Bite,1200,Sludge Wave,1522,391
+128,3,0.94,3,0.89,24,Arbok,34,22,47,17,Acid,1187.5,Gunk Shot,1456.25,537.5
+127,4,0.92,2,0.91,24,Arbok,34,21,46,18,Acid,1187.5,Sludge Wave,1425,550
+123,5,0.77,4,0.75,24,Arbok,34,18,39,14,Bite,1200,Dark Pulse,1155,450
+126,6,0.76,1,1,24,Arbok,34,18,39,19,Acid,1187.5,Dark Pulse,1147.5,602.5
+131,1,1,6,0.78,25,Pikachu,13,6,38,4,Thunder Shock,1037.5,Thunder,1562.5,462.5
+130,2,0.98,3,0.92,25,Pikachu,13,6,37,5,Thunder Shock,1037.5,Thunderbolt,1537.5,543.75
+129,3,0.81,5,0.83,25,Pikachu,13,5,31,4,Thunder Shock,1037.5,Discharge,1262.5,493.75
+133,4,0.79,1,1,25,Pikachu,13,5,30,5,Quick Attack,750,Thunderbolt,1236.25,593.75
+134,5,0.76,4,0.88,25,Pikachu,13,5,29,4,Quick Attack,750,Thunder,1195,520
+132,6,0.68,2,0.96,25,Pikachu,13,4,26,5,Quick Attack,750,Discharge,1066.25,570
+140,1,1,2,0.89,26,Raichu,32,29,67,19,Spark,1242.5,Thunder,1697.5,538.75
+137,2,0.92,5,0.77,26,Raichu,32,26,61,17,Thunder Shock,1037.5,Thunder,1562.5,462.5
+139,3,0.87,1,1,26,Raichu,32,25,58,22,Spark,1242.5,Thunder Punch,1480,603.75
+136,4,0.82,3,0.89,26,Raichu,32,23,55,19,Thunder Shock,1037.5,Thunder Punch,1393.75,537.5
+138,5,0.78,4,0.8,26,Raichu,32,22,52,17,Spark,1242.5,Brick Break,1317.5,481.25
+135,6,0.71,6,0.68,26,Raichu,32,20,48,15,Thunder Shock,1037.5,Brick Break,1211.25,410
+144,1,1,1,1,27,Sandshrew,19,6,24,6,Mud Shot,1357.5,Dig,1375,632.5
+145,2,0.99,3,0.83,27,Sandshrew,19,6,24,5,Mud Shot,1357.5,Rock Slide,1350,525
+146,2,0.99,5,0.66,27,Sandshrew,19,6,24,4,Mud Shot,1357.5,Rock Tomb,967.5,420
+141,4,0.97,2,0.95,27,Sandshrew,19,6,23,6,Scratch,1200,Dig,1328.5,599.5
+142,5,0.94,4,0.77,27,Sandshrew,19,6,22,4,Scratch,1200,Rock Slide,1286,486
+143,6,0.87,6,0.61,27,Sandshrew,19,5,21,3,Scratch,1200,Rock Tomb,912,384
+150,1,1,4,0.98,28,Sandslash,44,32,53,19,Mud Shot,1357.5,Earthquake,1790,512.5
+147,2,0.96,2,1,28,Sandslash,44,30,51,20,Metal Claw,1264,Earthquake,1723,522
+152,3,0.76,3,0.99,28,Sandslash,44,24,40,19,Mud Shot,1357.5,Bulldoze,1201.25,516.25
+151,3,0.76,6,0.8,28,Sandslash,44,24,40,16,Mud Shot,1357.5,Rock Tomb,967.5,420
+149,5,0.71,1,1,28,Sandslash,44,22,37,20,Metal Claw,1264,Bulldoze,1172,522.25
+148,5,0.71,5,0.82,28,Sandslash,44,22,37,16,Metal Claw,1264,Rock Tomb,952,426
+158,1,1,1,1,29,Nidoran F,19,8,33,6,Poison Sting,1297.5,Sludge Bomb,1697.5,583.75
+155,2,0.97,3,0.83,29,Nidoran F,19,8,32,5,Bite,1200,Sludge Bomb,1640.5,485
+157,3,0.9,5,0.78,29,Nidoran F,19,8,30,5,Poison Sting,1297.5,Body Slam,1527.5,455
+154,4,0.86,6,0.7,29,Nidoran F,19,7,28,4,Bite,1200,Body Slam,1454,410
+156,5,0.76,2,0.88,29,Nidoran F,19,6,25,5,Poison Sting,1297.5,Poison Fang,1146.25,515
+153,6,0.71,4,0.78,29,Nidoran F,19,6,23,5,Bite,1200,Poison Fang,1114.75,455.25
+164,1,1,1,1,30,Nidorina,33,19,44,14,Poison Sting,1297.5,Sludge Bomb,1697.5,583.75
+161,2,0.97,5,0.83,30,Nidorina,33,19,42,12,Bite,1200,Sludge Bomb,1640.5,485
+163,3,0.76,2,0.93,30,Nidorina,33,15,33,13,Poison Sting,1297.5,Dig,1167.5,545
+162,3,0.76,3,0.88,30,Nidorina,33,15,33,12,Poison Sting,1297.5,Poison Fang,1146.25,515
+160,5,0.71,4,0.88,30,Nidorina,33,13,31,12,Bite,1200,Dig,1136,512
+159,5,0.71,6,0.78,30,Nidorina,33,13,31,11,Bite,1200,Poison Fang,1114.75,455.25
+165,1,1,1,1,31,Nidoqueen,59,51,64,42,Poison Jab,1425,Earthquake,1770,685
+168,2,0.99,4,0.68,31,Nidoqueen,59,50,63,29,Bite,1200,Earthquake,1744,466
+167,3,0.92,3,0.89,31,Nidoqueen,59,47,59,38,Poison Jab,1425,Stone Edge,1625,610
+166,4,0.91,2,0.91,31,Nidoqueen,59,46,58,39,Poison Jab,1425,Sludge Wave,1605,625
+170,5,0.86,6,0.56,31,Nidoqueen,59,44,55,23,Bite,1200,Stone Edge,1530,382
+169,6,0.86,5,0.57,31,Nidoqueen,59,44,55,24,Bite,1200,Sludge Wave,1522,391
+176,1,1,2,0.97,32,Nidoran M,15,7,37,5,Poison Sting,1297.5,Sludge Bomb,1697.5,583.75
+175,2,0.9,5,0.75,32,Nidoran M,15,6,33,4,Poison Sting,1297.5,Body Slam,1527.5,455
+173,3,0.78,1,1,32,Nidoran M,15,5,28,5,Peck,860,Sludge Bomb,1326.25,603.75
+174,4,0.76,6,0.73,32,Nidoran M,15,5,28,4,Poison Sting,1297.5,Horn Attack,1075,442.5
+172,5,0.67,3,0.8,32,Nidoran M,15,4,24,4,Peck,860,Body Slam,1130,480
+171,6,0.53,4,0.77,32,Nidoran M,15,3,19,4,Peck,860,Horn Attack,895,465
+182,1,1,4,0.78,33,Nidorino,27,17,47,12,Poison Sting,1297.5,Sludge Bomb,1697.5,583.75
+179,2,0.99,1,1,33,Nidorino,27,17,47,16,Poison Jab,1425,Sludge Bomb,1686.25,748.75
+178,3,0.84,2,0.96,33,Nidorino,27,14,40,15,Poison Jab,1425,Dig,1225,720
+177,3,0.84,3,0.78,33,Nidorino,27,14,40,12,Poison Jab,1425,Horn Attack,1170,585
+181,5,0.76,5,0.73,33,Nidorino,27,13,36,12,Poison Sting,1297.5,Dig,1167.5,545
+180,5,0.76,6,0.59,33,Nidorino,27,13,36,9,Poison Sting,1297.5,Horn Attack,1075,442.5
+183,1,1,1,1,34,Nidoking,47,46,71,38,Poison Jab,1425,Earthquake,1770,685
+185,2,0.91,3,0.89,34,Nidoking,47,41,65,34,Poison Jab,1425,Megahorn,1610,610
+184,3,0.91,2,0.91,34,Nidoking,47,41,64,34,Poison Jab,1425,Sludge Wave,1605,625
+186,4,0.83,4,0.53,34,Nidoking,47,38,59,20,Fury Cutter,750,Earthquake,1468,361
+187,5,0.72,5,0.42,34,Nidoking,47,33,51,16,Fury Cutter,750,Sludge Wave,1273.5,289
+188,6,0.69,6,0.4,34,Nidoking,47,31,49,15,Fury Cutter,750,Megahorn,1218,274
+191,1,1,4,0.82,35,Clefairy,30,15,37,9,Pound,1295,Moonblast,1618.75,457.5
+190,2,0.93,6,0.74,35,Clefairy,30,14,34,8,Pound,1295,Body Slam,1508,412
+194,3,0.87,1,1,35,Clefairy,30,13,32,11,Zen Headbutt,1140,Moonblast,1407.25,560.5
+193,4,0.82,2,0.98,35,Clefairy,30,12,30,10,Zen Headbutt,1140,Body Slam,1332,548
+189,5,0.8,5,0.76,35,Clefairy,30,12,29,8,Pound,1295,Disarming Voice,878,425
+192,6,0.7,3,0.9,35,Clefairy,30,10,26,10,Zen Headbutt,1140,Disarming Voice,869.5,502
+197,1,1,6,0.66,36,Clefable,58,45,57,27,Pound,1295,Moonblast,1618.75,457.5
+196,2,0.9,5,0.67,36,Clefable,58,40,51,27,Pound,1295,Psychic,1450,458
+200,3,0.87,2,0.81,36,Clefable,58,39,49,33,Zen Headbutt,1140,Moonblast,1407.25,560.5
+195,4,0.86,4,0.8,36,Clefable,58,38,49,33,Pound,1295,Dazzling Gleam,1397.75,553.75
+198,5,0.81,1,1,36,Clefable,58,36,46,41,Zen Headbutt,1140,Dazzling Gleam,1308.25,688.5
+199,6,0.81,3,0.81,36,Clefable,58,36,46,33,Zen Headbutt,1140,Psychic,1306,556
+205,1,1,1,1,37,Vulpix,15,6,31,6,Ember,1187.5,Flamethrower,1493.75,681.25
+204,2,0.93,3,0.83,37,Vulpix,15,6,29,5,Ember,1187.5,Body Slam,1382.5,562.5
+202,3,0.82,2,0.86,37,Vulpix,15,5,25,5,Quick Attack,750,Flamethrower,1226.25,583.75
+206,4,0.79,3,0.83,37,Vulpix,15,5,24,5,Ember,1187.5,Flame Charge,981.25,562.5
+201,5,0.72,6,0.73,37,Vulpix,15,4,22,4,Quick Attack,750,Body Slam,1070,500
+203,6,0.55,5,0.74,37,Vulpix,15,3,17,4,Quick Attack,750,Flame Charge,821.25,502.5
+212,1,1,3,0.9,38,Ninetales,49,36,55,30,Ember,1187.5,Fire Blast,1600,612.5
+209,2,0.99,4,0.88,38,Ninetales,49,36,55,29,Feint Attack,1152,Fire Blast,1578,598
+211,3,0.93,1,1,38,Ninetales,49,34,52,33,Ember,1187.5,Flamethrower,1493.75,681.25
+208,4,0.92,2,0.98,38,Ninetales,49,34,51,33,Feint Attack,1152,Flamethrower,1476.25,667.75
+210,5,0.92,5,0.83,38,Ninetales,49,34,51,27,Ember,1187.5,Heat Wave,1475,562.5
+207,6,0.91,6,0.82,38,Ninetales,49,33,50,27,Feint Attack,1152,Heat Wave,1452,560
+214,1,1,6,0.75,39,Jigglypuff,21,10,36,6,Pound,1618.75,Body Slam,1885,515
+215,2,0.95,5,0.83,39,Jigglypuff,21,10,34,6,Pound,1618.75,Play Rough,1795,572.5
+219,3,0.86,3,0.88,39,Jigglypuff,21,9,31,7,Pound,1618.75,Dazzling Gleam,1523.75,606.25
+213,3,0.86,8,0.68,39,Jigglypuff,21,9,31,5,Pound,1618.75,Disarming Voice,972.5,468.75
+217,5,0.79,4,0.87,39,Jigglypuff,21,8,28,7,Feint Attack,1152,Body Slam,1490,598
+218,6,0.78,2,0.97,39,Jigglypuff,21,8,28,8,Feint Attack,1152,Play Rough,1476.25,667.75
+220,7,0.7,1,1,39,Jigglypuff,21,7,25,8,Feint Attack,1152,Dazzling Gleam,1317,688.5
+216,8,0.61,7,0.74,39,Jigglypuff,21,6,22,6,Feint Attack,1152,Disarming Voice,852.75,509.25
+222,1,1,4,0.88,40,Wigglytuff,52,47,67,30,Pound,1618.75,Hyper Beam,2038.75,606.25
+223,2,0.88,6,0.83,40,Wigglytuff,52,42,59,28,Pound,1618.75,Play Rough,1795,572.5
+225,3,0.82,3,0.94,40,Wigglytuff,52,39,55,32,Feint Attack,1152,Hyper Beam,1668,648
+221,4,0.79,4,0.88,40,Wigglytuff,52,38,53,30,Pound,1618.75,Dazzling Gleam,1523.75,606.25
+226,5,0.72,2,0.97,40,Wigglytuff,52,34,49,33,Feint Attack,1152,Play Rough,1476.25,667.75
+224,6,0.65,1,1,40,Wigglytuff,52,30,43,34,Feint Attack,1152,Dazzling Gleam,1317,688.5
+232,1,1,4,0.82,41,Zubat,12,4,28,3,Bite,1200,Sludge Bomb,1640.5,485
+229,2,0.76,1,1,41,Zubat,12,3,21,3,Quick Attack,750,Sludge Bomb,1246.25,593.75
+230,3,0.73,5,0.77,41,Zubat,12,3,20,2,Bite,1200,Poison Fang,1114.75,455.25
+231,3,0.73,6,0.74,41,Zubat,12,3,20,2,Bite,1200,Air Cutter,1057.5,436.5
+227,5,0.56,2,0.92,41,Zubat,12,2,16,3,Quick Attack,750,Poison Fang,923.75,543.75
+228,6,0.54,3,0.89,41,Zubat,12,2,15,3,Quick Attack,750,Air Cutter,882.5,527.5
+234,1,1,2,0.97,42,Golbat,42,27,48,22,Wing Attack,1496.25,Air Cutter,1203.75,555
+235,1,1,3,0.9,42,Golbat,42,27,48,20,Wing Attack,1496.25,Ominous Wind,1136.25,513.75
+233,1,1,1,1,42,Golbat,42,27,48,23,Wing Attack,1496.25,Poison Fang,1257.5,573.75
+236,4,0.8,4,0.79,42,Golbat,42,22,39,18,Bite,1200,Poison Fang,1114.75,455.25
+237,4,0.8,5,0.76,42,Golbat,42,22,39,17,Bite,1200,Air Cutter,1057.5,436.5
+238,4,0.8,6,0.67,42,Golbat,42,22,39,15,Bite,1200,Ominous Wind,960,384
+240,1,1,2,0.98,43,Oddish,20,11,41,12,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+243,2,0.98,3,0.84,43,Oddish,20,11,40,10,Acid,1187.5,Sludge Bomb,1531.25,681.25
+239,3,0.92,1,1,43,Oddish,20,10,38,12,Razor Leaf,1275,Seed Bomb,1450,812.5
+241,4,0.9,5,0.81,43,Oddish,20,10,37,10,Razor Leaf,1275,Moonblast,1418.75,657.5
+242,5,0.9,4,0.83,43,Oddish,20,10,37,10,Acid,1187.5,Seed Bomb,1412.5,675
+244,6,0.87,6,0.66,43,Oddish,20,9,36,8,Acid,1187.5,Moonblast,1360,532.5
+245,1,1,1,1,44,Gloom,32,23,51,25,Razor Leaf,1275,Petal Blizzard,1618.75,837.5
+248,2,0.98,3,0.87,44,Gloom,32,22,51,22,Acid,1187.5,Petal Blizzard,1593.75,731.25
+246,3,0.97,2,0.95,44,Gloom,32,22,50,24,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+249,4,0.95,4,0.81,44,Gloom,32,21,49,20,Acid,1187.5,Sludge Bomb,1531.25,681.25
+247,5,0.88,5,0.79,44,Gloom,32,20,45,20,Razor Leaf,1275,Moonblast,1418.75,657.5
+250,6,0.84,6,0.64,44,Gloom,32,19,43,16,Acid,1187.5,Moonblast,1360,532.5
+255,1,1,4,0.79,45,Vileplume,49,45,68,38,Acid,1187.5,Solar Beam,1700,662.5
+252,2,0.99,2,0.92,45,Vileplume,49,44,67,44,Razor Leaf,1275,Solar Beam,1687.5,768.75
+251,3,0.95,1,1,45,Vileplume,49,43,64,48,Razor Leaf,1275,Petal Blizzard,1618.75,837.5
+254,4,0.94,3,0.87,45,Vileplume,49,42,63,41,Acid,1187.5,Petal Blizzard,1593.75,731.25
+253,5,0.83,5,0.79,45,Vileplume,49,37,56,37,Razor Leaf,1275,Moonblast,1418.75,657.5
+256,6,0.8,6,0.64,45,Vileplume,49,36,54,30,Acid,1187.5,Moonblast,1360,532.5
+262,1,1,2,0.99,46,Paras,14,7,37,5,Bug Bite,1387.5,Seed Bomb,1568.75,506.25
+261,2,0.98,1,1,46,Paras,14,7,37,5,Bug Bite,1387.5,X-Scissor,1543.75,512.5
+259,3,0.95,3,0.97,46,Paras,14,7,35,5,Scratch,1200,Seed Bomb,1484,498
+258,4,0.92,4,0.9,46,Paras,14,6,35,4,Scratch,1200,X-Scissor,1451,460.5
+260,5,0.88,5,0.84,46,Paras,14,6,33,4,Bug Bite,1387.5,Cross Poison,1312.5,431.25
+257,6,0.78,6,0.81,46,Paras,14,5,29,4,Scratch,1200,Cross Poison,1226,417
+265,1,1,1,1,47,Parasect,35,30,63,17,Bug Bite,1387.5,Solar Beam,1987.5,525
+268,2,0.87,3,0.84,47,Parasect,35,26,55,14,Fury Cutter,937.5,Solar Beam,1732.5,438.75
+264,3,0.78,2,0.98,47,Parasect,35,23,49,16,Bug Bite,1387.5,X-Scissor,1543.75,512.5
+263,4,0.7,4,0.82,47,Parasect,35,21,44,14,Bug Bite,1387.5,Cross Poison,1312.5,431.25
+267,5,0.67,5,0.75,47,Parasect,35,20,42,12,Fury Cutter,937.5,X-Scissor,1325,393.75
+266,6,0.56,6,0.63,47,Parasect,35,16,35,10,Fury Cutter,937.5,Cross Poison,1106.25,331.25
+271,1,1,4,0.72,48,Venonat,24,10,31,8,Bug Bite,1387.5,Signal Beam,1493.75,537.5
+269,2,0.93,5,0.65,48,Venonat,24,9,29,7,Bug Bite,1387.5,Poison Fang,1181.25,487.5
+270,2,0.93,6,0.61,48,Venonat,24,9,29,6,Bug Bite,1387.5,Psybeam,1071.25,455
+274,4,0.84,1,1,48,Venonat,24,8,26,11,Confusion,990,Signal Beam,1256.25,750
+272,5,0.69,2,0.86,48,Venonat,24,7,22,9,Confusion,990,Poison Fang,1028.75,645
+273,6,0.66,3,0.82,48,Venonat,24,7,21,9,Confusion,990,Psybeam,950,615
+277,1,1,4,0.74,49,Venomoth,37,29,58,21,Bug Bite,1387.5,Bug Buzz,1718.75,581.25
+276,2,0.89,6,0.56,49,Venomoth,37,26,51,16,Bug Bite,1387.5,Psychic,1525,438.75
+280,3,0.81,1,1,49,Venomoth,37,24,47,28,Confusion,990,Bug Buzz,1398.75,783.75
+275,4,0.81,5,0.62,49,Venomoth,37,23,47,18,Bug Bite,1387.5,Poison Fang,1181.25,487.5
+279,5,0.72,2,0.84,49,Venomoth,37,21,42,24,Confusion,990,Psychic,1235,660
+278,6,0.6,3,0.82,49,Venomoth,37,17,35,23,Confusion,990,Poison Fang,1028.75,645
+288,1,1,2,0.85,50,Diglett,2,1,29,1,Mud Slap,1387.5,Mud Bomb,1293.75,731.25
+289,1,1,4,0.73,50,Diglett,2,1,29,1,Mud Slap,1387.5,Rock Tomb,1038.75,626.25
+287,1,1,1,1,50,Diglett,2,1,29,1,Mud Slap,1387.5,Dig,1387.5,862.5
+281,4,0.99,3,0.73,50,Diglett,2,1,29,1,Mud Shot,1357.5,Dig,1375,632.5
+282,5,0.98,6,0.6,50,Diglett,2,1,29,0,Mud Shot,1357.5,Mud Bomb,1267.5,517.5
+283,5,0.98,8,0.49,50,Diglett,2,1,29,0,Mud Shot,1357.5,Rock Tomb,967.5,420
+284,7,0.96,5,0.7,50,Diglett,2,1,28,1,Scratch,1200,Dig,1328.5,599.5
+285,8,0.87,7,0.56,50,Diglett,2,1,25,0,Scratch,1200,Mud Bomb,1206,480
+286,9,0.86,9,0.45,50,Diglett,2,1,25,0,Scratch,1200,Rock Tomb,912,384
+293,1,1,6,0.68,51,Dugtrio,17,12,52,7,Mud Shot,1357.5,Earthquake,1790,512.5
+296,2,0.94,1,1,51,Dugtrio,17,11,49,10,Mud Slap,1387.5,Earthquake,1675,756.25
+295,3,0.9,8,0.57,51,Dugtrio,17,10,47,6,Mud Shot,1357.5,Stone Edge,1607.5,430
+298,4,0.88,3,0.88,51,Dugtrio,17,10,45,9,Mud Slap,1387.5,Stone Edge,1567.5,666.25
+290,5,0.86,7,0.64,51,Dugtrio,17,10,45,6,Sucker Punch,994,Earthquake,1540,481
+297,6,0.78,2,0.97,51,Dugtrio,17,9,40,10,Mud Slap,1387.5,Mud Bomb,1293.75,731.25
+294,7,0.76,5,0.68,51,Dugtrio,17,9,39,7,Mud Shot,1357.5,Mud Bomb,1267.5,517.5
+292,8,0.75,9,0.53,51,Dugtrio,17,9,39,5,Sucker Punch,994,Stone Edge,1347,398
+291,9,0.62,4,0.69,51,Dugtrio,17,7,32,7,Sucker Punch,994,Mud Bomb,1118.5,519.5
+301,1,1,1,1,52,Meowth,13,6,37,3,Scratch,1500,Body Slam,1817.5,512.5
+304,2,0.89,3,0.9,52,Meowth,13,5,33,3,Bite,1200,Body Slam,1624,460
+300,3,0.83,2,0.97,52,Meowth,13,5,30,3,Scratch,1500,Dark Pulse,1275,495
+299,3,0.83,4,0.89,52,Meowth,13,5,30,3,Scratch,1500,Night Slash,1140,457.5
+303,5,0.66,5,0.88,52,Meowth,13,4,24,3,Bite,1200,Dark Pulse,1155,450
+302,5,0.66,6,0.81,52,Meowth,13,4,24,3,Bite,1200,Night Slash,1032,414
+307,1,1,4,0.79,53,Persian,32,21,47,14,Scratch,1500,Play Rough,1550,475
+306,2,0.97,5,0.79,53,Persian,32,20,46,13,Scratch,1500,Power Gem,1310,472.5
+305,2,0.97,6,0.76,53,Persian,32,20,46,13,Scratch,1500,Night Slash,1140,457.5
+310,4,0.85,1,1,53,Persian,32,18,40,17,Feint Attack,1152,Play Rough,1325,599
+309,5,0.75,2,0.97,53,Persian,32,15,35,17,Feint Attack,1152,Power Gem,1160,580
+308,6,0.74,3,0.91,53,Persian,32,15,35,16,Feint Attack,1152,Night Slash,1026,546
+313,1,1,6,0.66,54,Psyduck,19,11,45,5,Water Gun,1500,Cross Chop,1725,405
+312,2,0.98,4,0.79,54,Psyduck,19,11,44,7,Water Gun,1500,Aqua Tail,1698.75,487.5
+311,3,0.87,5,0.78,54,Psyduck,19,10,39,7,Water Gun,1500,Psybeam,1105,482.5
+315,4,0.81,1,1,54,Psyduck,19,9,36,9,Zen Headbutt,1140,Aqua Tail,1398.75,617.25
+316,5,0.77,3,0.8,54,Psyduck,19,9,34,7,Zen Headbutt,1140,Cross Chop,1320,492
+314,6,0.66,2,0.88,54,Psyduck,19,7,29,8,Zen Headbutt,1140,Psybeam,1024,544
+318,1,1,5,0.71,55,Golduck,48,47,72,26,Water Gun,1500,Hydro Pump,1882.5,495
+317,2,0.84,6,0.68,55,Golduck,48,39,60,25,Water Gun,1500,Psychic,1572.5,475
+319,3,0.81,4,0.73,55,Golduck,48,38,58,27,Water Gun,1500,Ice Beam,1530,507.5
+321,4,0.75,1,1,55,Golduck,48,35,54,37,Confusion,990,Hydro Pump,1410,697.5
+320,5,0.66,2,0.95,55,Golduck,48,31,47,35,Confusion,990,Psychic,1235,660
+322,6,0.65,3,0.94,55,Golduck,48,30,46,35,Confusion,990,Ice Beam,1220,655
+326,1,1,6,0.75,56,Mankey,13,7,39,3,Scratch,1200,Cross Chop,1650,378
+328,2,0.89,4,0.93,56,Mankey,13,6,35,4,Scratch,1200,Brick Break,1467,466.5
+327,3,0.79,3,0.97,56,Mankey,13,5,31,4,Scratch,1200,Low Sweep,1299,486
+323,4,0.79,5,0.79,56,Mankey,13,5,31,3,Karate Chop,937.5,Cross Chop,1297.5,397.5
+325,5,0.76,2,0.97,56,Mankey,13,5,30,4,Karate Chop,937.5,Brick Break,1252.5,487.5
+324,6,0.7,1,1,56,Mankey,13,5,27,4,Karate Chop,937.5,Low Sweep,1155,502.5
+329,1,1,6,0.75,57,Primeape,33,22,50,12,Low Kick,1037.5,Cross Chop,1431.25,375
+332,2,0.91,5,0.79,57,Primeape,33,20,45,13,Karate Chop,937.5,Cross Chop,1297.5,397.5
+330,3,0.85,2,0.97,57,Primeape,33,19,43,16,Low Kick,1037.5,Low Sweep,1218.75,487.5
+333,4,0.81,1,1,57,Primeape,33,18,40,17,Karate Chop,937.5,Low Sweep,1155,502.5
+331,5,0.72,4,0.83,57,Primeape,33,16,36,14,Low Kick,1037.5,Night Slash,977.5,415
+334,6,0.66,3,0.87,57,Primeape,33,15,33,15,Karate Chop,937.5,Night Slash,937.5,435
+340,1,1,5,0.7,58,Growlithe,21,13,49,9,Bite,1200,Flamethrower,1586.5,479
+337,2,0.94,1,1,58,Growlithe,21,13,46,12,Ember,1187.5,Flamethrower,1493.75,681.25
+339,3,0.92,6,0.6,58,Growlithe,21,12,44,7,Bite,1200,Body Slam,1454,410
+336,4,0.87,3,0.83,58,Growlithe,21,12,42,10,Ember,1187.5,Body Slam,1382.5,562.5
+338,5,0.76,4,0.73,58,Growlithe,21,10,37,9,Bite,1200,Flame Wheel,1042,500
+335,6,0.75,2,0.9,58,Growlithe,21,10,36,11,Ember,1187.5,Flame Wheel,1050,612.5
+341,1,1,2,0.98,59,Arcanine,56,62,83,47,Fire Fang,1487.5,Fire Blast,1825,637.5
+344,2,0.96,5,0.72,59,Arcanine,56,60,80,34,Bite,1200,Fire Blast,1756,466
+342,3,0.92,1,1,59,Arcanine,56,57,76,48,Fire Fang,1487.5,Flamethrower,1681.25,650
+345,4,0.87,4,0.74,59,Arcanine,56,54,72,35,Bite,1200,Flamethrower,1586.5,479
+343,5,0.82,3,0.86,59,Arcanine,56,51,67,41,Fire Fang,1487.5,Bulldoze,1137.5,557.5
+346,6,0.66,6,0.64,59,Arcanine,56,41,54,31,Bite,1200,Bulldoze,997,419
+349,1,1,1,1,60,Poliwag,13,6,32,7,Bubble,1343.75,Body Slam,1537.5,922.5
+352,2,0.89,6,0.4,60,Poliwag,13,5,29,3,Mud Shot,1086,Body Slam,1366,370
+347,3,0.87,2,0.93,60,Poliwag,13,5,28,7,Bubble,1343.75,Bubble Beam,1200,856.25
+348,3,0.87,3,0.86,60,Poliwag,13,5,28,6,Bubble,1343.75,Mud Bomb,1133.75,796.25
+350,5,0.71,4,0.47,60,Poliwag,13,4,23,3,Mud Shot,1086,Bubble Beam,1095,436.5
+351,6,0.71,5,0.45,60,Poliwag,13,4,23,3,Mud Shot,1086,Mud Bomb,1014,414
+353,1,1,1,1,61,Poliwhirl,29,15,38,23,Bubble,1343.75,Scald,1456.25,1025
+356,2,0.94,4,0.57,61,Poliwhirl,29,14,35,13,Mud Shot,1086,Scald,1364.5,580.5
+355,3,0.92,2,0.84,61,Poliwhirl,29,14,35,19,Bubble,1343.75,Bubble Beam,1200,856.25
+354,3,0.92,3,0.78,61,Poliwhirl,29,14,35,17,Bubble,1343.75,Mud Bomb,1133.75,796.25
+358,5,0.75,5,0.43,61,Poliwhirl,29,11,28,9,Mud Shot,1086,Bubble Beam,1095,436.5
+357,6,0.75,6,0.4,61,Poliwhirl,29,11,28,9,Mud Shot,1086,Mud Bomb,1014,414
+359,1,1,1,1,62,Poliwrath,63,52,61,68,Bubble,1343.75,Hydro Pump,1725,1043.75
+362,2,0.9,5,0.42,62,Poliwrath,63,46,55,28,Mud Shot,1086,Hydro Pump,1549.5,435
+360,3,0.8,2,0.91,62,Poliwrath,63,42,49,61,Bubble,1343.75,Submission,1387.5,950
+361,4,0.78,3,0.82,62,Poliwrath,63,40,47,55,Bubble,1343.75,Ice Punch,1223.75,856.25
+363,5,0.73,6,0.41,62,Poliwrath,63,38,45,27,Mud Shot,1086,Submission,1264.5,423
+364,6,0.64,4,0.43,62,Poliwrath,63,33,39,28,Mud Shot,1086,Ice Punch,1107,444
+365,1,1,1,1,63,Abra,6,2,32,2,Zen Headbutt,1425,Psyshock,1480,690
+366,2,0.96,2,0.93,63,Abra,6,2,31,2,Zen Headbutt,1425,Signal Beam,1335,645
+367,2,0.96,2,0.93,63,Abra,6,2,31,2,Zen Headbutt,1425,Shadow Ball,1335,645
+368,1,1,4,0.76,64,Kadabra,15,9,45,7,Psycho Cut,1531.25,Psybeam,1292.5,586.25
+370,1,1,5,0.69,64,Kadabra,15,9,45,7,Psycho Cut,1531.25,Shadow Ball,1383.75,532.5
+369,1,1,6,0.69,64,Kadabra,15,9,45,7,Psycho Cut,1531.25,Dazzling Gleam,1310,528.75
+373,4,0.82,3,0.96,64,Kadabra,15,7,37,9,Confusion,1237.5,Shadow Ball,1248.75,735
+372,5,0.81,2,0.96,64,Kadabra,15,7,36,9,Confusion,1237.5,Dazzling Gleam,1185,741.25
+371,5,0.81,1,1,64,Kadabra,15,7,36,10,Confusion,1237.5,Psybeam,1187.5,768.75
+374,1,1,4,0.68,65,Alakazam,29,25,65,17,Psycho Cut,1531.25,Psychic,1768.75,563.75
+377,2,0.87,1,1,65,Alakazam,29,22,56,25,Confusion,1237.5,Psychic,1543.75,825
+376,3,0.87,5,0.65,65,Alakazam,29,22,56,16,Psycho Cut,1531.25,Shadow Ball,1383.75,532.5
+375,3,0.87,6,0.64,65,Alakazam,29,22,56,16,Psycho Cut,1531.25,Dazzling Gleam,1310,528.75
+379,5,0.71,3,0.89,65,Alakazam,29,17,46,22,Confusion,1237.5,Shadow Ball,1248.75,735
+378,6,0.7,2,0.9,65,Alakazam,29,17,45,22,Confusion,1237.5,Dazzling Gleam,1185,741.25
+382,1,1,6,0.75,66,Machop,23,10,33,5,Low Kick,1037.5,Cross Chop,1431.25,375
+381,2,0.94,4,0.86,66,Machop,23,9,31,6,Low Kick,1037.5,Brick Break,1350,431.25
+385,3,0.91,5,0.79,66,Machop,23,9,30,6,Karate Chop,937.5,Cross Chop,1297.5,397.5
+384,4,0.88,2,0.97,66,Machop,23,9,29,7,Karate Chop,937.5,Brick Break,1252.5,487.5
+380,5,0.85,2,0.97,66,Machop,23,8,28,7,Low Kick,1037.5,Low Sweep,1218.75,487.5
+383,6,0.81,1,1,66,Machop,23,8,27,7,Karate Chop,937.5,Low Sweep,1155,502.5
+388,1,1,6,0.77,67,Machoke,40,23,43,13,Low Kick,1037.5,Cross Chop,1431.25,375
+387,2,0.94,3,0.88,67,Machoke,40,22,41,15,Low Kick,1037.5,Brick Break,1350,431.25
+391,3,0.91,5,0.82,67,Machoke,40,21,39,14,Karate Chop,937.5,Cross Chop,1297.5,397.5
+390,4,0.88,1,1,67,Machoke,40,20,38,17,Karate Chop,937.5,Brick Break,1252.5,487.5
+386,5,0.86,4,0.87,67,Machoke,40,20,37,15,Low Kick,1037.5,Submission,1225,425
+389,6,0.8,2,0.98,67,Machoke,40,18,35,16,Karate Chop,937.5,Submission,1147.5,480
+397,1,1,6,0.78,68,Machamp,56,38,50,25,Karate Chop,937.5,Cross Chop,1297.5,397.5
+395,2,0.97,5,0.8,68,Machamp,56,37,49,26,Karate Chop,937.5,Stone Edge,1257.5,407.5
+394,3,0.89,4,0.86,68,Machamp,56,34,45,28,Bullet Punch,830,Cross Chop,1150,440
+396,4,0.88,2,0.94,68,Machamp,56,34,45,30,Karate Chop,937.5,Submission,1147.5,480
+392,5,0.87,3,0.88,68,Machamp,56,33,44,28,Bullet Punch,830,Stone Edge,1130,450
+393,6,0.82,1,1,68,Machamp,56,31,41,32,Bullet Punch,830,Submission,1062.5,512.5
+399,1,1,2,0.83,69,Bellsprout,13,9,52,6,Vine Whip,1338.75,Sludge Bomb,1665,563.75
+398,2,0.99,4,0.71,69,Bellsprout,13,9,51,5,Vine Whip,1338.75,Power Whip,1645,481.25
+402,3,0.92,1,1,69,Bellsprout,13,8,47,8,Acid,1187.5,Sludge Bomb,1531.25,681.25
+401,4,0.92,3,0.81,69,Bellsprout,13,8,47,6,Acid,1187.5,Power Whip,1525,550
+400,5,0.8,6,0.6,69,Bellsprout,13,7,41,5,Vine Whip,1338.75,Wrap,812.5,410
+403,6,0.71,5,0.68,69,Bellsprout,13,6,37,5,Acid,1187.5,Wrap,750,462.5
+405,1,1,2,0.98,70,Weepinbell,24,19,59,21,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+404,2,0.99,3,0.84,70,Weepinbell,24,19,58,18,Razor Leaf,1275,Power Whip,1556.25,681.25
+408,3,0.98,3,0.84,70,Weepinbell,24,19,57,18,Acid,1187.5,Sludge Bomb,1531.25,681.25
+407,4,0.97,6,0.68,70,Weepinbell,24,19,57,14,Acid,1187.5,Power Whip,1525,550
+406,5,0.92,1,1,70,Weepinbell,24,18,54,22,Razor Leaf,1275,Seed Bomb,1450,812.5
+409,6,0.9,5,0.83,70,Weepinbell,24,17,53,18,Acid,1187.5,Seed Bomb,1412.5,675
+415,1,1,6,0.83,71,Victreebel,42,42,74,35,Acid,1187.5,Solar Beam,1700,662.5
+412,2,0.99,3,0.97,71,Victreebel,42,42,74,41,Razor Leaf,1275,Solar Beam,1687.5,768.75
+411,3,0.92,1,1,71,Victreebel,42,39,69,42,Razor Leaf,1275,Sludge Bomb,1568.75,793.75
+410,4,0.91,1,1,71,Victreebel,42,38,68,42,Razor Leaf,1275,Leaf Blade,1550,793.75
+414,5,0.9,4,0.86,71,Victreebel,42,38,67,36,Acid,1187.5,Sludge Bomb,1531.25,681.25
+413,6,0.89,4,0.86,71,Victreebel,42,37,66,36,Acid,1187.5,Leaf Blade,1506.25,681.25
+417,1,1,1,1,72,Tentacool,18,7,28,10,Bubble,1343.75,Water Pulse,1231.25,900
+416,1,1,2,0.95,72,Tentacool,18,7,28,9,Bubble,1343.75,Bubble Beam,1200,856.25
+418,1,1,3,0.68,72,Tentacool,18,7,28,7,Bubble,1343.75,Wrap,812.5,612.5
+420,4,0.97,4,0.61,72,Tentacool,18,6,27,6,Poison Sting,1297.5,Water Pulse,1201.25,552.5
+419,4,0.97,5,0.57,72,Tentacool,18,6,27,5,Poison Sting,1297.5,Bubble Beam,1170,510
+421,4,0.97,6,0.44,72,Tentacool,18,6,27,4,Poison Sting,1297.5,Wrap,760,397.5
+425,1,1,1,1,73,Tentacruel,54,42,58,35,Poison Jab,1425,Hydro Pump,1725,660
+427,2,0.96,2,0.96,73,Tentacruel,54,40,55,33,Poison Jab,1425,Blizzard,1650,635
+426,3,0.93,3,0.95,73,Tentacruel,54,39,54,33,Poison Jab,1425,Sludge Wave,1605,625
+422,4,0.9,4,0.89,73,Tentacruel,54,38,52,31,Acid,1187.5,Hydro Pump,1550,587.5
+424,5,0.86,5,0.85,73,Tentacruel,54,36,49,29,Acid,1187.5,Blizzard,1475,562.5
+423,6,0.83,6,0.83,73,Tentacruel,54,35,48,29,Acid,1187.5,Sludge Wave,1425,550
+428,1,1,2,0.99,74,Geodude,16,6,29,8,Rock Throw,1095,Rock Slide,1400,847.5
+431,2,0.98,4,0.84,74,Geodude,16,6,28,7,Tackle,1080,Rock Slide,1376.5,713.5
+430,3,0.91,1,1,74,Geodude,16,5,26,8,Rock Throw,1095,Dig,1280,852.5
+433,4,0.91,3,0.9,74,Geodude,16,5,26,7,Tackle,1080,Dig,1271,765
+429,5,0.78,5,0.76,74,Geodude,16,5,23,6,Rock Throw,1095,Rock Tomb,1005,645
+432,6,0.77,6,0.66,74,Geodude,16,5,22,5,Tackle,1080,Rock Tomb,1006.5,564
+438,1,1,9,0.54,75,Graveler,29,19,49,11,Mud Shot,1357.5,Stone Edge,1767.5,470
+441,2,0.95,5,0.82,75,Graveler,29,19,47,17,Mud Slap,1387.5,Stone Edge,1687.5,706.25
+439,3,0.87,8,0.7,75,Graveler,29,17,43,14,Mud Shot,1357.5,Rock Slide,1537.5,600
+442,4,0.86,3,0.99,75,Graveler,29,17,42,20,Mud Slap,1387.5,Rock Slide,1525,850
+435,4,0.86,6,0.8,75,Graveler,29,17,42,16,Rock Throw,1095,Stone Edge,1525,690
+436,6,0.79,4,0.98,75,Graveler,29,15,39,20,Rock Throw,1095,Rock Slide,1400,847.5
+440,7,0.79,1,1,75,Graveler,29,15,39,20,Mud Slap,1387.5,Dig,1387.5,862.5
+437,8,0.78,7,0.73,75,Graveler,29,15,38,15,Mud Shot,1357.5,Dig,1375,632.5
+434,9,0.72,2,0.99,75,Graveler,29,14,36,20,Rock Throw,1095,Dig,1280,852.5
+448,1,1,7,0.68,76,Golem,55,46,62,28,Mud Shot,1357.5,Earthquake,1790,512.5
+446,2,0.99,9,0.62,76,Golem,55,45,61,26,Mud Shot,1357.5,Stone Edge,1767.5,470
+449,3,0.94,4,0.93,76,Golem,55,43,58,39,Mud Slap,1387.5,Stone Edge,1687.5,706.25
+451,4,0.94,1,1,76,Golem,55,43,58,42,Mud Slap,1387.5,Earthquake,1675,756.25
+445,5,0.9,2,0.99,76,Golem,55,41,56,41,Rock Throw,1095,Earthquake,1610,750
+443,6,0.85,6,0.91,76,Golem,55,39,53,38,Rock Throw,1095,Stone Edge,1525,690
+450,7,0.78,3,0.97,76,Golem,55,35,48,40,Mud Slap,1387.5,Ancient Power,1193.75,731.25
+447,8,0.76,8,0.67,76,Golem,55,35,47,28,Mud Shot,1357.5,Ancient Power,1165,508.75
+444,9,0.61,5,0.92,76,Golem,55,28,38,38,Rock Throw,1095,Ancient Power,1076.25,692.5
+457,1,1,1,1,77,Ponyta,23,17,53,14,Ember,1187.5,Fire Blast,1600,612.5
+454,2,0.96,3,0.98,77,Ponyta,23,16,50,13,Tackle,1080,Fire Blast,1530,598
+455,3,0.74,5,0.92,77,Ponyta,23,12,39,12,Ember,1187.5,Flame Charge,981.25,562.5
+456,3,0.74,1,1,77,Ponyta,23,12,39,14,Ember,1187.5,Flame Wheel,1050,612.5
+453,5,0.68,4,0.96,77,Ponyta,23,11,35,13,Tackle,1080,Flame Wheel,1020,590
+452,5,0.68,6,0.9,77,Ponyta,23,11,35,12,Tackle,1080,Flame Charge,951.25,552.5
+461,1,1,2,0.96,78,Rapidash,38,32,63,26,Ember,1187.5,Fire Blast,1600,612.5
+463,2,0.92,3,0.88,78,Rapidash,38,30,58,24,Ember,1187.5,Heat Wave,1475,562.5
+458,3,0.9,5,0.66,78,Rapidash,38,29,57,18,Low Kick,830,Fire Blast,1440,420
+460,4,0.8,6,0.59,78,Rapidash,38,26,50,16,Low Kick,830,Heat Wave,1280,375
+462,5,0.77,1,1,78,Rapidash,38,25,48,28,Ember,1187.5,Drill Run,1225,637.5
+459,6,0.67,4,0.7,78,Rapidash,38,21,42,19,Low Kick,830,Drill Run,1075,445
+466,1,1,5,0.64,79,Slowpoke,34,17,38,11,Water Gun,1500,Psychic,1765,530
+469,2,0.87,1,1,79,Slowpoke,34,15,33,17,Confusion,1237.5,Psychic,1543.75,825
+465,3,0.87,4,0.65,79,Slowpoke,34,15,33,11,Water Gun,1500,Psyshock,1532.5,540
+464,4,0.85,6,0.63,79,Slowpoke,34,15,32,11,Water Gun,1500,Water Pulse,1268.75,523.75
+468,5,0.78,2,0.96,79,Slowpoke,34,13,29,17,Confusion,1237.5,Psyshock,1375,793.75
+467,6,0.7,3,0.89,79,Slowpoke,34,12,26,15,Confusion,1237.5,Water Pulse,1181.25,731.25
+471,1,1,4,0.64,80,Slowbro,65,56,64,36,Water Gun,1500,Psychic,1765,530
+474,2,0.87,1,1,80,Slowbro,65,49,56,56,Confusion,1237.5,Psychic,1543.75,825
+472,3,0.87,6,0.62,80,Slowbro,65,49,55,35,Water Gun,1500,Ice Beam,1530,507.5
+470,4,0.85,5,0.63,80,Slowbro,65,48,54,36,Water Gun,1500,Water Pulse,1268.75,523.75
+475,5,0.77,2,0.89,80,Slowbro,65,43,49,50,Confusion,1237.5,Ice Beam,1362.5,737.5
+473,6,0.7,3,0.89,80,Slowbro,65,39,45,50,Confusion,1237.5,Water Pulse,1181.25,731.25
+478,1,1,2,0.99,81,Magnemite,11,6,41,4,Spark,1242.5,Thunderbolt,1620,555
+481,2,0.95,3,0.97,81,Magnemite,11,6,39,4,Thunder Shock,1037.5,Thunderbolt,1537.5,543.75
+476,3,0.83,1,1,81,Magnemite,11,5,34,4,Spark,1242.5,Discharge,1347.5,560
+479,4,0.78,5,0.88,81,Magnemite,11,5,32,4,Thunder Shock,1037.5,Discharge,1262.5,493.75
+477,5,0.77,4,0.96,81,Magnemite,11,5,31,4,Spark,1242.5,Magnet Bomb,1182.5,536.25
+480,6,0.68,6,0.85,81,Magnemite,11,4,27,4,Thunder Shock,1037.5,Magnet Bomb,1100,475
+484,1,1,1,1,82,Magneton,31,23,55,22,Spark,1242.5,Flash Cannon,1508.75,686.25
+487,2,0.96,2,0.91,82,Magneton,31,22,53,20,Thunder Shock,1037.5,Flash Cannon,1450,625
+482,3,0.89,3,0.82,82,Magneton,31,20,49,18,Spark,1242.5,Discharge,1347.5,560
+485,4,0.84,5,0.72,82,Magneton,31,19,46,16,Thunder Shock,1037.5,Discharge,1262.5,493.75
+483,5,0.82,4,0.78,82,Magneton,31,19,45,17,Spark,1242.5,Magnet Bomb,1182.5,536.25
+486,6,0.73,6,0.69,82,Magneton,31,17,40,15,Thunder Shock,1037.5,Magnet Bomb,1100,475
+490,1,1,1,1,83,Farfetch'd,23,12,39,12,Cut,1320,Leaf Blade,1445,665
+488,2,0.91,2,0.97,83,Farfetch'd,23,11,36,12,Cut,1320,Aerial Ace,1200,645
+489,2,0.91,3,0.95,83,Farfetch'd,23,11,36,11,Cut,1320,Air Cutter,1132.5,630
+493,4,0.83,6,0.49,83,Farfetch'd,23,10,32,6,Fury Cutter,750,Leaf Blade,1203,328
+491,5,0.68,4,0.53,83,Farfetch'd,23,8,26,6,Fury Cutter,750,Aerial Ace,976.5,355.5
+492,6,0.63,5,0.53,83,Farfetch'd,23,7,24,6,Fury Cutter,750,Air Cutter,912,352.5
+494,1,1,2,0.96,84,Doduo,11,5,32,5,Peck,1075,Drill Peck,1300,650
+497,2,0.93,1,1,84,Doduo,11,4,30,5,Quick Attack,937.5,Drill Peck,1212.5,675
+495,3,0.84,3,0.87,84,Doduo,11,4,27,4,Peck,1075,Aerial Ace,1087.5,587.5
+496,4,0.83,6,0.85,84,Doduo,11,4,26,4,Peck,1075,Swift,1075,575
+498,5,0.79,3,0.87,84,Doduo,11,4,25,4,Quick Attack,937.5,Aerial Ace,1025,587.5
+499,6,0.77,3,0.87,84,Doduo,11,3,24,4,Quick Attack,937.5,Swift,1000,587.5
+500,1,1,2,0.89,85,Dodrio,31,20,48,21,Feint Attack,1152,Drill Peck,1350,650
+503,2,0.97,1,1,85,Dodrio,31,19,47,23,Steel Wing,1125,Drill Peck,1315,730
+501,3,0.85,5,0.82,85,Dodrio,31,17,41,19,Feint Attack,1152,Aerial Ace,1116,601.5
+502,3,0.85,6,0.77,85,Dodrio,31,17,41,18,Feint Attack,1152,Air Cutter,1054.5,564
+504,5,0.83,3,0.87,85,Dodrio,31,17,40,20,Steel Wing,1125,Aerial Ace,1110,637.5
+505,5,0.83,4,0.85,85,Dodrio,31,17,40,20,Steel Wing,1125,Air Cutter,1042.5,622.5
+511,1,1,5,0.74,86,Seel,31,14,35,9,Water Gun,1500,Aqua Tail,1698.75,487.5
+509,2,0.88,3,0.8,86,Seel,31,12,30,9,Water Gun,1500,Aqua Jet,1228.75,522.5
+510,2,0.88,8,0.6,86,Seel,31,12,30,7,Water Gun,1500,Icy Wind,822.5,395
+514,4,0.82,6,0.61,86,Seel,31,11,28,7,Lick,1000,Aqua Tail,1387.5,400
+508,5,0.8,1,1,86,Seel,31,11,27,12,Ice Shard,1065,Aqua Tail,1353.75,656.25
+506,6,0.63,2,0.98,86,Seel,31,9,22,11,Ice Shard,1065,Aqua Jet,1073.75,643.75
+507,7,0.63,4,0.75,86,Seel,31,9,21,9,Ice Shard,1065,Icy Wind,750,490
+512,8,0.62,6,0.61,86,Seel,31,9,21,7,Lick,1000,Aqua Jet,1057.5,400
+513,9,0.59,9,0.47,86,Seel,31,8,20,5,Lick,1000,Icy Wind,710,310
+517,1,1,4,0.83,87,Dewgong,60,43,54,32,Frost Breath,1383.75,Blizzard,1762.5,610
+520,2,0.94,1,1,87,Dewgong,60,41,51,39,Ice Shard,1331.25,Blizzard,1656.25,737.5
+516,3,0.79,5,0.78,87,Dewgong,60,34,42,30,Frost Breath,1383.75,Aqua Jet,1223.75,573.75
+515,3,0.79,6,0.69,87,Dewgong,60,34,42,27,Frost Breath,1383.75,Icy Wind,952.5,508.75
+519,5,0.76,2,0.97,87,Dewgong,60,33,41,38,Ice Shard,1331.25,Aqua Jet,1193.75,718.75
+518,5,0.76,3,0.83,87,Dewgong,60,33,41,32,Ice Shard,1331.25,Icy Wind,937.5,612.5
+529,1,1,1,1,88,Grimer,30,17,41,16,Poison Jab,1425,Sludge Bomb,1686.25,748.75
+523,2,0.91,4,0.91,88,Grimer,30,15,37,14,Acid,1187.5,Sludge Bomb,1531.25,681.25
+526,3,0.88,2,0.96,88,Grimer,30,14,36,15,Mud Slap,1110,Sludge Bomb,1476.25,718.75
+527,4,0.85,3,0.91,88,Grimer,30,14,35,14,Poison Jab,1425,Sludge,1312.5,682.5
+528,4,0.85,7,0.82,88,Grimer,30,14,35,13,Poison Jab,1425,Mud Bomb,1185,615
+521,6,0.71,6,0.83,88,Grimer,30,12,29,13,Acid,1187.5,Sludge,1200,625
+522,7,0.7,9,0.74,88,Grimer,30,11,29,12,Acid,1187.5,Mud Bomb,1072.5,557.5
+524,8,0.68,5,0.87,88,Grimer,30,11,28,14,Mud Slap,1110,Sludge,1155,652.5
+525,9,0.66,8,0.78,88,Grimer,30,11,27,12,Mud Slap,1110,Mud Bomb,1035,585
+534,1,1,3,0.93,89,Muk,68,53,58,43,Poison Jab,1425,Gunk Shot,1633.75,612.5
+535,2,0.98,2,0.95,89,Muk,68,52,57,44,Poison Jab,1425,Sludge Wave,1605,625
+531,3,0.89,6,0.81,89,Muk,68,47,51,38,Acid,1187.5,Gunk Shot,1456.25,537.5
+533,4,0.87,1,1,89,Muk,68,46,50,46,Poison Jab,1425,Dark Pulse,1260,660
+532,4,0.87,5,0.83,89,Muk,68,46,50,38,Acid,1187.5,Sludge Wave,1425,550
+538,6,0.85,8,0.54,89,Muk,68,45,49,25,Lick,1000,Sludge Wave,1385,355
+537,7,0.84,9,0.53,89,Muk,68,45,48,24,Lick,1000,Gunk Shot,1370,347.5
+530,8,0.73,4,0.91,89,Muk,68,39,42,42,Acid,1187.5,Dark Pulse,1147.5,602.5
+536,9,0.65,7,0.58,89,Muk,68,35,38,27,Lick,1000,Dark Pulse,1070,385
+543,1,1,3,0.9,90,Shellder,11,4,26,4,Tackle,1080,Water Pulse,1124.25,614
+540,2,0.99,1,1,90,Shellder,11,4,26,5,Ice Shard,1065,Water Pulse,1107.5,678.75
+542,3,0.97,4,0.85,90,Shellder,11,4,25,4,Tackle,1080,Bubble Beam,1092,576
+539,4,0.97,2,0.94,90,Shellder,11,4,25,5,Ice Shard,1065,Bubble Beam,1087.5,637.5
+544,5,0.96,6,0.67,90,Shellder,11,4,25,3,Tackle,1080,Icy Wind,759,453
+541,6,0.95,5,0.72,90,Shellder,11,3,25,3,Ice Shard,1065,Icy Wind,750,490
+547,1,1,4,0.83,91,Cloyster,34,31,68,23,Frost Breath,1383.75,Blizzard,1762.5,610
+546,2,0.96,5,0.79,91,Cloyster,34,30,66,22,Frost Breath,1383.75,Hydro Pump,1698.75,585
+550,3,0.94,1,1,91,Cloyster,34,29,64,28,Ice Shard,1331.25,Blizzard,1656.25,737.5
+549,4,0.91,2,0.97,91,Cloyster,34,28,62,27,Ice Shard,1331.25,Hydro Pump,1612.5,712.5
+545,5,0.79,6,0.69,91,Cloyster,34,24,53,19,Frost Breath,1383.75,Icy Wind,952.5,508.75
+548,6,0.76,3,0.83,91,Cloyster,34,23,51,23,Ice Shard,1331.25,Icy Wind,937.5,612.5
+553,1,1,4,0.88,92,Gastly,8,5,44,3,Lick,1250,Sludge Bomb,1637.5,493.75
+556,2,0.93,1,1,92,Gastly,8,4,41,3,Sucker Punch,994,Sludge Bomb,1522.5,560.75
+551,3,0.76,5,0.79,92,Gastly,8,3,33,2,Lick,1250,Ominous Wind,1118.75,443.75
+552,3,0.76,6,0.76,92,Gastly,8,3,33,2,Lick,1250,Dark Pulse,1180,425
+555,5,0.66,3,0.89,92,Gastly,8,3,28,3,Sucker Punch,994,Dark Pulse,1074,497
+554,6,0.63,2,0.91,92,Gastly,8,3,27,3,Sucker Punch,994,Ominous Wind,1025,512.5
+559,1,1,2,0.97,93,Haunter,18,14,58,12,Shadow Claw,1443.75,Sludge Bomb,1705,673.75
+562,2,0.96,4,0.71,93,Haunter,18,13,55,8,Lick,1250,Sludge Bomb,1637.5,493.75
+557,3,0.88,1,1,93,Haunter,18,12,51,12,Shadow Claw,1443.75,Shadow Ball,1501.25,695
+558,4,0.85,3,0.88,93,Haunter,18,12,49,11,Shadow Claw,1443.75,Dark Pulse,1282.5,613.75
+560,5,0.83,5,0.69,93,Haunter,18,11,48,8,Lick,1250,Shadow Ball,1418.75,481.25
+561,6,0.73,6,0.61,93,Haunter,18,10,42,7,Lick,1250,Dark Pulse,1180,425
+570,1,1,2,0.97,94,Gengar,32,30,68,25,Shadow Claw,1443.75,Sludge Bomb,1705,673.75
+569,2,0.95,4,0.87,94,Gengar,32,28,65,22,Shadow Claw,1443.75,Sludge Wave,1625,601.25
+566,3,0.89,6,0.81,94,Gengar,32,26,61,21,Sucker Punch,994,Sludge Bomb,1522.5,560.75
+567,4,0.88,1,1,94,Gengar,32,26,60,26,Shadow Claw,1443.75,Shadow Ball,1501.25,695
+568,5,0.85,3,0.88,94,Gengar,32,25,58,23,Shadow Claw,1443.75,Dark Pulse,1282.5,613.75
+565,6,0.81,8,0.59,94,Gengar,32,24,56,15,Sucker Punch,994,Sludge Wave,1386,413
+563,7,0.78,5,0.84,94,Gengar,32,23,53,22,Sucker Punch,994,Shadow Ball,1327,582.75
+564,8,0.63,7,0.72,94,Gengar,32,18,43,18,Sucker Punch,994,Dark Pulse,1074,497
+572,1,1,3,0.81,95,Onix,22,8,27,8,Rock Throw,1095,Stone Edge,1525,690
+575,2,0.95,5,0.65,95,Onix,22,7,25,6,Tackle,1080,Stone Edge,1452,548
+571,3,0.92,1,1,95,Onix,22,7,24,9,Rock Throw,1095,Rock Slide,1400,847.5
+574,4,0.9,2,0.84,95,Onix,22,7,24,8,Tackle,1080,Rock Slide,1376.5,713.5
+573,5,0.75,4,0.74,95,Onix,22,6,20,7,Rock Throw,1095,Iron Head,1140,630
+576,6,0.74,6,0.62,95,Onix,22,6,20,6,Tackle,1080,Iron Head,1128,522
+579,1,1,6,0.62,96,Drowzee,29,13,33,8,Pound,1295,Psychic,1628.75,513
+582,2,0.95,1,1,96,Drowzee,29,12,31,14,Confusion,1237.5,Psychic,1543.75,825
+578,3,0.88,5,0.63,96,Drowzee,29,11,29,9,Pound,1295,Psyshock,1438,517
+581,4,0.84,2,0.96,96,Drowzee,29,11,28,13,Confusion,1237.5,Psyshock,1375,793.75
+577,5,0.8,4,0.65,96,Drowzee,29,10,26,9,Pound,1295,Psybeam,1199,539
+580,6,0.76,3,0.93,96,Drowzee,29,10,25,13,Confusion,1237.5,Psybeam,1187.5,768.75
+584,1,1,4,0.84,97,Hypno,57,40,52,37,Zen Headbutt,1425,Psychic,1632.5,695
+587,2,0.95,1,1,97,Hypno,57,38,49,44,Confusion,1237.5,Psychic,1543.75,825
+583,3,0.91,5,0.84,97,Hypno,57,36,47,37,Zen Headbutt,1425,Psyshock,1480,690
+585,4,0.87,6,0.78,97,Hypno,57,35,45,34,Zen Headbutt,1425,Shadow Ball,1335,645
+586,5,0.84,2,0.96,97,Hypno,57,34,44,42,Confusion,1237.5,Psyshock,1375,793.75
+588,6,0.76,3,0.89,97,Hypno,57,31,40,39,Confusion,1237.5,Shadow Ball,1248.75,735
+590,1,1,2,0.95,98,Krabby,11,4,30,6,Bubble,1343.75,Bubble Beam,1200,856.25
+589,1,1,3,0.9,98,Krabby,11,4,30,6,Bubble,1343.75,Vice Grip,1112.5,806.25
+591,1,1,1,1,98,Krabby,11,4,30,6,Bubble,1343.75,Water Pulse,1231.25,900
+594,4,0.84,4,0.53,98,Krabby,11,3,25,3,Mud Shot,1086,Water Pulse,1127.75,474.25
+593,5,0.81,5,0.49,98,Krabby,11,3,25,3,Mud Shot,1086,Bubble Beam,1095,436.5
+592,6,0.81,6,0.47,98,Krabby,11,3,24,3,Mud Shot,1086,Vice Grip,1013,424
+596,1,1,3,0.89,99,Kingler,32,19,45,15,Metal Claw,1264,X-Scissor,1299,466
+595,2,0.97,4,0.88,99,Kingler,32,19,44,14,Metal Claw,1264,Vice Grip,1086,457
+597,2,0.97,1,1,99,Kingler,32,19,44,17,Metal Claw,1264,Water Pulse,1196,522.25
+599,4,0.94,6,0.78,99,Kingler,32,18,42,13,Mud Shot,1086,X-Scissor,1217,408
+600,5,0.87,2,0.91,99,Kingler,32,17,39,15,Mud Shot,1086,Water Pulse,1127.75,474.25
+598,6,0.84,5,0.81,99,Kingler,32,16,38,13,Mud Shot,1086,Vice Grip,1013,424
+602,1,1,5,0.83,100,Voltorb,17,7,32,5,Spark,1242.5,Thunderbolt,1620,555
+605,2,0.9,1,1,100,Voltorb,17,6,29,6,Tackle,1080,Thunderbolt,1452.25,667.75
+601,3,0.83,4,0.84,100,Voltorb,17,6,27,5,Spark,1242.5,Discharge,1347.5,560
+604,4,0.78,2,0.91,100,Voltorb,17,5,25,6,Tackle,1080,Discharge,1256.25,606.25
+603,5,0.77,6,0.78,100,Voltorb,17,5,25,5,Spark,1242.5,Signal Beam,1243.75,523.75
+606,6,0.72,3,0.9,100,Voltorb,17,5,23,6,Tackle,1080,Signal Beam,1161,603
+608,1,1,5,0.83,101,Electrode,36,23,48,17,Spark,1242.5,Thunderbolt,1620,555
+609,2,0.96,6,0.78,101,Electrode,36,22,46,16,Spark,1242.5,Hyper Beam,1551.25,520
+611,3,0.9,1,1,101,Electrode,36,21,43,20,Tackle,1080,Thunderbolt,1452.25,667.75
+612,4,0.89,3,0.86,101,Electrode,36,20,42,17,Tackle,1080,Hyper Beam,1440,576
+607,5,0.83,4,0.84,101,Electrode,36,19,40,17,Spark,1242.5,Discharge,1347.5,560
+610,6,0.78,2,0.91,101,Electrode,36,18,37,18,Tackle,1080,Discharge,1256.25,606.25
+614,1,1,1,1,102,Exeggcute,27,12,33,14,Confusion,1237.5,Psychic,1543.75,825
+613,2,0.94,2,0.96,102,Exeggcute,27,11,31,13,Confusion,1237.5,Seed Bomb,1443.75,793.75
+615,3,0.8,3,0.77,102,Exeggcute,27,9,26,11,Confusion,1237.5,Ancient Power,1015,633.75
+621,1,1,5,0.89,103,Exeggutor,54,59,82,52,Zen Headbutt,1425,Solar Beam,1785,735
+618,2,0.92,3,0.93,103,Exeggutor,54,55,75,55,Confusion,1237.5,Solar Beam,1650,768.75
+620,3,0.91,6,0.84,103,Exeggutor,54,54,75,50,Zen Headbutt,1425,Psychic,1632.5,695
+617,4,0.86,1,1,103,Exeggutor,54,51,70,59,Confusion,1237.5,Psychic,1543.75,825
+619,5,0.86,4,0.9,103,Exeggutor,54,51,70,53,Zen Headbutt,1425,Seed Bomb,1540,740
+616,6,0.81,2,0.96,103,Exeggutor,54,48,66,57,Confusion,1237.5,Seed Bomb,1443.75,793.75
+622,1,1,3,0.88,104,Cubone,26,10,28,11,Mud Slap,1387.5,Bone Club,1412.5,756.25
+623,2,0.98,1,1,104,Cubone,26,9,28,13,Mud Slap,1387.5,Dig,1387.5,862.5
+624,2,0.98,4,0.87,104,Cubone,26,9,28,11,Mud Slap,1387.5,Bulldoze,1231.25,750
+626,4,0.88,2,0.92,104,Cubone,26,8,25,12,Rock Smash,1050,Dig,1237.5,795
+625,5,0.87,6,0.76,104,Cubone,26,8,24,10,Rock Smash,1050,Bone Club,1223.75,657.5
+627,6,0.77,5,0.79,104,Cubone,26,7,22,10,Rock Smash,1050,Bulldoze,1092.5,678.75
+630,1,1,3,0.88,105,Marowak,42,26,46,25,Mud Slap,1387.5,Earthquake,1675,756.25
+633,2,0.86,6,0.74,105,Marowak,42,22,39,21,Rock Smash,1050,Earthquake,1435,640
+628,3,0.84,3,0.88,105,Marowak,42,22,39,25,Mud Slap,1387.5,Bone Club,1412.5,756.25
+629,4,0.83,1,1,105,Marowak,42,21,38,29,Mud Slap,1387.5,Dig,1387.5,862.5
+632,5,0.74,2,0.92,105,Marowak,42,19,34,26,Rock Smash,1050,Dig,1237.5,795
+631,6,0.73,5,0.76,105,Marowak,42,19,33,22,Rock Smash,1050,Bone Club,1223.75,657.5
+640,1,1,4,0.87,106,Hitmonlee,29,17,44,16,Rock Smash,1312.5,Stone Edge,1511.25,666.25
+641,2,0.98,2,0.98,106,Hitmonlee,29,17,43,19,Rock Smash,1312.5,Brick Break,1481.25,750
+637,3,0.89,6,0.56,106,Hitmonlee,29,15,39,10,Low Kick,1037.5,Brick Break,1350,431.25
+636,4,0.88,8,0.49,106,Hitmonlee,29,15,39,9,Low Kick,1037.5,Stone Edge,1335,378.75
+639,5,0.88,1,1,106,Hitmonlee,29,15,39,19,Rock Smash,1312.5,Low Sweep,1331.25,768.75
+638,6,0.87,3,0.9,106,Hitmonlee,29,15,38,17,Rock Smash,1312.5,Stomp,1233.75,693.75
+635,7,0.81,5,0.63,106,Hitmonlee,29,14,35,12,Low Kick,1037.5,Low Sweep,1218.75,487.5
+634,8,0.73,7,0.56,106,Hitmonlee,29,12,32,10,Low Kick,1037.5,Stomp,1098.75,427.5
+649,1,1,1,1,107,Hitmonchan,35,19,40,21,Rock Smash,1312.5,Brick Break,1481.25,750
+647,2,0.91,2,0.98,107,Hitmonchan,35,17,36,20,Rock Smash,1312.5,Thunder Punch,1347.5,732.5
+646,3,0.89,3,0.95,107,Hitmonchan,35,17,35,19,Rock Smash,1312.5,Ice Punch,1215,708.75
+645,3,0.89,4,0.92,107,Hitmonchan,35,17,35,19,Rock Smash,1312.5,Fire Punch,1270,692.5
+648,5,0.78,5,0.7,107,Hitmonchan,35,14,31,14,Bullet Punch,830,Brick Break,1150,522.5
+644,6,0.71,6,0.69,107,Hitmonchan,35,13,28,14,Bullet Punch,830,Thunder Punch,1050,520
+642,7,0.67,6,0.69,107,Hitmonchan,35,12,27,14,Bullet Punch,830,Fire Punch,990,520
+643,8,0.65,8,0.67,107,Hitmonchan,35,12,26,14,Bullet Punch,830,Ice Punch,970,500
+650,1,1,4,0.73,108,Lickitung,50,27,41,17,Lick,1000,Hyper Beam,1665,475
+653,2,0.95,1,1,108,Lickitung,50,26,39,23,Zen Headbutt,1140,Hyper Beam,1578,648
+655,3,0.8,3,0.77,108,Lickitung,50,22,33,18,Zen Headbutt,1140,Power Whip,1332,500
+652,4,0.78,6,0.5,108,Lickitung,50,21,32,11,Lick,1000,Power Whip,1295,325
+654,5,0.77,2,0.98,108,Lickitung,50,21,31,23,Zen Headbutt,1140,Stomp,1275,637.5
+651,6,0.74,5,0.65,108,Lickitung,50,20,30,15,Lick,1000,Stomp,1237.5,422.5
+657,1,1,1,1,109,Koffing,19,10,41,10,Acid,1187.5,Sludge Bomb,1531.25,681.25
+660,2,0.96,2,0.98,109,Koffing,19,10,39,10,Tackle,1080,Sludge Bomb,1464.25,667.75
+656,3,0.78,3,0.92,109,Koffing,19,8,32,9,Acid,1187.5,Sludge,1200,625
+658,4,0.78,5,0.88,109,Koffing,19,8,32,9,Acid,1187.5,Dark Pulse,1147.5,602.5
+659,5,0.75,4,0.9,109,Koffing,19,8,31,9,Tackle,1080,Sludge,1153.5,613.5
+661,6,0.72,6,0.87,109,Koffing,19,7,29,9,Tackle,1080,Dark Pulse,1101,591
+662,1,1,1,1,110,Weezing,44,34,57,33,Acid,1187.5,Sludge Bomb,1531.25,681.25
+665,2,0.96,2,0.98,110,Weezing,44,33,55,32,Tackle,1080,Sludge Bomb,1464.25,667.75
+663,3,0.8,3,0.9,110,Weezing,44,27,45,29,Acid,1187.5,Shadow Ball,1217.5,615
+664,4,0.78,5,0.88,110,Weezing,44,26,44,29,Acid,1187.5,Dark Pulse,1147.5,602.5
+666,5,0.76,4,0.89,110,Weezing,44,26,43,29,Tackle,1080,Shadow Ball,1161,603
+667,6,0.72,6,0.87,110,Weezing,44,24,41,28,Tackle,1080,Dark Pulse,1101,591
+668,1,1,1,1,111,Rhyhorn,32,13,30,15,Mud Slap,1387.5,Bulldoze,1231.25,750
+670,1,1,2,0.95,111,Rhyhorn,32,13,30,14,Mud Slap,1387.5,Stomp,1271.25,712.5
+669,1,1,4,0.86,111,Rhyhorn,32,13,30,13,Mud Slap,1387.5,Horn Attack,1162.5,643.75
+673,4,0.79,5,0.82,111,Rhyhorn,32,10,23,12,Rock Smash,1050,Stomp,1095,615
+671,5,0.79,3,0.91,111,Rhyhorn,32,10,23,13,Rock Smash,1050,Bulldoze,1092.5,678.75
+672,6,0.76,6,0.75,111,Rhyhorn,32,9,22,11,Rock Smash,1050,Horn Attack,995,565
+676,1,1,2,0.93,112,Rhydon,58,43,55,39,Mud Slap,1387.5,Stone Edge,1687.5,706.25
+675,2,0.99,1,1,112,Rhydon,58,43,55,42,Mud Slap,1387.5,Earthquake,1675,756.25
+674,3,0.92,3,0.88,112,Rhydon,58,39,50,37,Mud Slap,1387.5,Megahorn,1548.75,666.25
+678,4,0.85,4,0.85,112,Rhydon,58,37,47,35,Rock Smash,1050,Earthquake,1435,640
+679,5,0.84,5,0.8,112,Rhydon,58,36,46,33,Rock Smash,1050,Stone Edge,1425,605
+677,6,0.77,6,0.75,112,Rhydon,58,33,42,31,Rock Smash,1050,Megahorn,1305,565
+683,1,1,2,0.94,113,Chansey,52,11,16,7,Pound,1618.75,Hyper Beam,2038.75,606.25
+680,2,0.8,7,0.8,113,Chansey,52,9,12,6,Pound,1618.75,Psychic,1633.75,517.5
+682,3,0.79,6,0.83,113,Chansey,52,8,12,6,Pound,1618.75,Dazzling Gleam,1345,537.5
+681,3,0.79,8,0.8,113,Chansey,52,8,12,6,Pound,1618.75,Psybeam,1138.75,516.25
+687,5,0.77,1,1,113,Chansey,52,8,12,7,Zen Headbutt,1140,Hyper Beam,1578,648
+684,6,0.64,4,0.86,113,Chansey,52,7,10,6,Zen Headbutt,1140,Psychic,1306,556
+686,7,0.57,3,0.94,113,Chansey,52,6,9,7,Zen Headbutt,1140,Dazzling Gleam,1157,606
+685,8,0.56,5,0.84,113,Chansey,52,6,9,6,Zen Headbutt,1140,Psybeam,1024,544
+690,1,1,1,1,114,Tangela,34,27,58,19,Vine Whip,1338.75,Solar Beam,1810,588.75
+688,2,0.91,3,0.82,114,Tangela,34,24,53,15,Vine Whip,1338.75,Power Whip,1645,481.25
+689,3,0.83,2,0.86,114,Tangela,34,22,48,16,Vine Whip,1338.75,Sludge Bomb,1500,508.75
+692,1,1,2,0.86,115,Kangaskhan,64,32,37,32,Mud Slap,1110,Earthquake,1340,605
+693,2,0.94,1,1,115,Kangaskhan,64,30,35,37,Mud Slap,1110,Stomp,1260,705
+695,3,0.94,5,0.52,115,Kangaskhan,64,30,35,19,Low Kick,830,Earthquake,1255,370
+691,4,0.91,3,0.85,115,Kangaskhan,64,29,34,31,Mud Slap,1110,Brick Break,1215,600
+696,5,0.87,4,0.64,115,Kangaskhan,64,28,32,23,Low Kick,830,Stomp,1162.5,450
+694,6,0.81,6,0.49,115,Kangaskhan,64,26,30,18,Low Kick,830,Brick Break,1080,345
+698,1,1,6,0.52,116,Horsea,10,5,37,3,Water Gun,1500,Dragon Pulse,1542.5,507.5
+699,2,0.97,4,0.59,116,Horsea,10,5,36,4,Water Gun,1500,Flash Cannon,1410,577.5
+697,2,0.97,5,0.53,116,Horsea,10,5,36,3,Water Gun,1500,Bubble Beam,1237.5,517.5
+701,4,0.93,2,0.98,116,Horsea,10,4,34,6,Bubble,1343.75,Dragon Pulse,1433.75,955
+700,5,0.87,3,0.88,116,Horsea,10,4,32,6,Bubble,1343.75,Bubble Beam,1200,856.25
+702,5,0.87,1,1,116,Horsea,10,4,32,7,Bubble,1343.75,Flash Cannon,1342.5,977.5
+705,1,1,2,0.98,117,Seadra,28,25,65,14,Water Gun,1500,Hydro Pump,1882.5,495
+703,2,0.94,3,0.93,117,Seadra,28,23,61,13,Water Gun,1500,Blizzard,1767.5,470
+708,3,0.9,5,0.87,117,Seadra,28,22,58,12,Dragon Breath,1200,Hydro Pump,1686,441
+706,4,0.84,6,0.82,117,Seadra,28,21,54,12,Dragon Breath,1200,Blizzard,1574,416
+704,5,0.82,1,1,117,Seadra,28,20,53,14,Water Gun,1500,Dragon Pulse,1542.5,507.5
+707,6,0.75,4,0.9,117,Seadra,28,18,48,13,Dragon Breath,1200,Dragon Pulse,1403,458
+714,1,1,5,0.75,118,Goldeen,19,8,32,5,Mud Shot,1086,Aqua Tail,1441.5,429
+711,2,0.84,2,0.97,118,Goldeen,19,7,26,6,Peck,860,Aqua Tail,1208.75,551.25
+712,3,0.78,3,0.83,118,Goldeen,19,6,25,6,Mud Shot,1086,Water Pulse,1127.75,474.25
+713,4,0.75,6,0.67,118,Goldeen,19,6,24,4,Mud Shot,1086,Horn Attack,993,380
+709,5,0.7,1,1,118,Goldeen,19,5,22,7,Peck,860,Water Pulse,1012.5,570
+710,6,0.62,4,0.82,118,Goldeen,19,5,19,5,Peck,860,Horn Attack,895,465
+720,1,1,3,0.83,119,Seaking,44,28,47,22,Poison Jab,1140,Megahorn,1400,520
+719,2,0.86,1,1,119,Seaking,44,24,40,27,Poison Jab,1140,Drill Run,1202,626
+717,3,0.82,5,0.72,119,Seaking,44,23,39,19,Peck,860,Megahorn,1150,450
+718,4,0.81,4,0.74,119,Seaking,44,23,38,20,Poison Jab,1140,Icy Wind,771,465
+716,5,0.76,2,0.86,119,Seaking,44,21,36,23,Peck,860,Drill Run,1060,540
+715,6,0.61,6,0.66,119,Seaking,44,17,29,18,Peck,860,Icy Wind,675,415
+725,1,1,4,0.9,120,Staryu,13,6,38,5,Water Gun,1500,Bubble Beam,1237.5,517.5
+726,1,1,7,0.82,120,Staryu,13,6,38,4,Water Gun,1500,Power Gem,1310,472.5
+724,1,1,9,0.78,120,Staryu,13,6,38,4,Water Gun,1500,Swift,1095,450
+729,4,0.75,2,0.99,120,Staryu,13,5,28,5,Tackle,1080,Power Gem,1124,568
+728,5,0.73,1,1,120,Staryu,13,5,28,5,Tackle,1080,Bubble Beam,1092,576
+727,6,0.72,5,0.9,120,Staryu,13,4,27,5,Tackle,1080,Swift,960,516
+723,7,0.63,6,0.87,120,Staryu,13,4,24,4,Quick Attack,750,Power Gem,950,500
+722,8,0.63,3,0.93,120,Staryu,13,4,24,5,Quick Attack,750,Bubble Beam,940,537.5
+721,9,0.53,8,0.82,120,Staryu,13,3,20,4,Quick Attack,750,Swift,800,470
+733,1,1,8,0.75,121,Starmie,40,38,72,22,Water Gun,1500,Hydro Pump,1882.5,495
+739,2,0.94,6,0.81,121,Starmie,40,36,67,23,Water Gun,1500,Psychic,1765,530
+735,3,0.8,5,0.84,121,Starmie,40,31,57,24,Water Gun,1500,Psybeam,1265,552.5
+734,3,0.8,10,0.72,121,Starmie,40,31,57,21,Water Gun,1500,Power Gem,1310,472.5
+736,5,0.79,3,0.87,121,Starmie,40,30,56,25,Tackle,1080,Hydro Pump,1479,573
+738,6,0.77,1,1,121,Starmie,40,29,55,29,Tackle,1080,Psychic,1440.25,655.75
+730,7,0.65,8,0.75,121,Starmie,40,25,47,22,Quick Attack,750,Hydro Pump,1225,495
+737,8,0.6,4,0.87,121,Starmie,40,23,43,25,Tackle,1080,Power Gem,1124,568
+732,9,0.53,2,0.9,121,Starmie,40,20,38,26,Quick Attack,750,Psybeam,990,590
+731,10,0.5,7,0.76,121,Starmie,40,19,36,22,Quick Attack,750,Power Gem,950,500
+744,1,1,4,0.84,122,Mr. Mime,27,18,49,16,Zen Headbutt,1425,Psychic,1632.5,695
+741,2,0.95,1,1,122,Mr. Mime,27,17,47,19,Confusion,1237.5,Psychic,1543.75,825
+743,3,0.87,5,0.82,122,Mr. Mime,27,15,43,16,Zen Headbutt,1425,Psybeam,1280,680
+745,3,0.87,6,0.78,122,Mr. Mime,27,15,43,15,Zen Headbutt,1425,Shadow Ball,1335,645
+742,5,0.76,3,0.89,122,Mr. Mime,27,13,38,17,Confusion,1237.5,Shadow Ball,1248.75,735
+740,6,0.76,2,0.93,122,Mr. Mime,27,13,37,18,Confusion,1237.5,Psybeam,1187.5,768.75
+748,1,1,4,0.62,123,Scyther,43,31,53,22,Fury Cutter,937.5,Bug Buzz,1526.25,498.75
+751,2,0.98,1,1,123,Scyther,43,30,51,35,Steel Wing,1125,Bug Buzz,1488.75,798.75
+750,3,0.87,2,0.87,123,Scyther,43,27,46,30,Steel Wing,1125,X-Scissor,1331.25,695
+747,4,0.87,5,0.49,123,Scyther,43,27,46,17,Fury Cutter,937.5,X-Scissor,1325,393.75
+749,5,0.74,3,0.73,123,Scyther,43,23,39,25,Steel Wing,1125,Night Slash,1020,585
+746,6,0.61,6,0.41,123,Scyther,43,19,32,14,Fury Cutter,937.5,Night Slash,937.5,330
+754,1,1,1,1,124,Jynx,30,20,49,18,Frost Breath,1383.75,Psyshock,1465,615
+757,2,0.98,4,0.84,124,Jynx,30,19,49,15,Pound,1295,Psyshock,1438,517
+753,3,0.95,2,0.97,124,Jynx,30,19,47,17,Frost Breath,1383.75,Ice Punch,1395,596.25
+752,4,0.94,5,0.8,124,Jynx,30,19,47,14,Frost Breath,1383.75,Draining Kiss,1032.5,492.5
+756,5,0.93,3,0.88,124,Jynx,30,18,46,16,Pound,1295,Ice Punch,1361.75,540.5
+755,6,0.88,6,0.67,124,Jynx,30,17,44,12,Pound,1295,Draining Kiss,934,414
+760,1,1,3,0.85,125,Electabuzz,36,29,61,18,Thunder Shock,1037.5,Thunder,1562.5,462.5
+759,2,0.98,1,1,125,Electabuzz,36,29,60,22,Thunder Shock,1037.5,Thunderbolt,1537.5,543.75
+763,3,0.91,6,0.77,125,Electabuzz,36,27,55,17,Low Kick,830,Thunder,1425,420
+758,4,0.89,2,0.99,125,Electabuzz,36,26,54,22,Thunder Shock,1037.5,Thunder Punch,1393.75,537.5
+762,5,0.88,5,0.81,125,Electabuzz,36,26,54,18,Low Kick,830,Thunderbolt,1378.75,440
+761,6,0.81,4,0.84,125,Electabuzz,36,24,49,18,Low Kick,830,Thunder Punch,1270,455
+764,1,1,3,0.9,126,Magmar,35,32,67,26,Ember,1187.5,Fire Blast,1600,612.5
+766,2,0.93,1,1,126,Magmar,35,30,63,29,Ember,1187.5,Flamethrower,1493.75,681.25
+765,3,0.84,2,0.97,126,Magmar,35,27,56,29,Ember,1187.5,Fire Punch,1337.5,662.5
+767,4,0.81,6,0.65,126,Magmar,35,26,54,19,Karate Chop,750,Fire Blast,1290,442
+769,5,0.77,5,0.67,126,Magmar,35,24,51,19,Karate Chop,750,Flamethrower,1224.25,455
+768,6,0.71,4,0.69,126,Magmar,35,22,47,20,Karate Chop,750,Fire Punch,1128,468
+774,1,1,4,0.57,127,Pinsir,41,27,48,17,Fury Cutter,937.5,X-Scissor,1325,393.75
+771,2,0.98,1,1,127,Pinsir,41,26,47,30,Rock Smash,1050,X-Scissor,1301.25,695
+772,3,0.83,3,0.84,127,Pinsir,41,22,39,25,Rock Smash,1050,Submission,1095,585
+770,4,0.79,2,0.86,127,Pinsir,41,21,38,26,Rock Smash,1050,Vice Grip,1010,600
+775,4,0.79,6,0.45,127,Pinsir,41,21,38,13,Fury Cutter,937.5,Submission,1050,311.25
+773,6,0.72,5,0.49,127,Pinsir,41,19,34,15,Fury Cutter,937.5,Vice Grip,951.25,341.25
+778,1,1,2,0.99,128,Tauros,47,29,46,25,Tackle,1350,Earthquake,1575,635
+781,2,0.87,5,0.85,128,Tauros,47,25,40,22,Zen Headbutt,1140,Earthquake,1364,548
+776,3,0.86,1,1,128,Tauros,47,25,39,26,Tackle,1350,Horn Attack,1252.5,641.25
+777,3,0.86,3,0.94,128,Tauros,47,25,39,24,Tackle,1350,Iron Head,1290,600
+780,5,0.74,6,0.83,128,Tauros,47,21,33,21,Zen Headbutt,1140,Iron Head,1158,534
+779,6,0.73,4,0.86,128,Tauros,47,21,33,22,Zen Headbutt,1140,Horn Attack,1143.25,550
+782,1,1,1,1,129,Magikarp,5,0,2,0,Splash,0,Struggle,315,165
+783,1,1,3,0.96,130,Gyarados,64,55,64,31,Dragon Breath,1200,Hydro Pump,1686,441
+786,1,1,3,0.96,130,Gyarados,64,55,64,31,Bite,1200,Hydro Pump,1686,441
+785,3,0.83,1,1,130,Gyarados,64,46,53,32,Dragon Breath,1200,Dragon Pulse,1403,458
+788,3,0.83,1,1,130,Gyarados,64,46,53,32,Bite,1200,Dragon Pulse,1403,458
+784,5,0.71,5,0.86,130,Gyarados,64,39,45,28,Dragon Breath,1200,Twister,915,393
+787,5,0.71,5,0.86,130,Gyarados,64,39,45,28,Bite,1200,Twister,915,393
+791,1,1,5,0.73,131,Lapras,85,74,64,55,Frost Breath,1383.75,Blizzard,1762.5,610
+794,2,0.94,3,0.88,131,Lapras,85,70,61,67,Ice Shard,1331.25,Blizzard,1656.25,737.5
+790,3,0.92,4,0.78,131,Lapras,85,69,59,59,Frost Breath,1383.75,Ice Beam,1622.5,651.25
+793,4,0.9,1,1,131,Lapras,85,67,58,76,Ice Shard,1331.25,Ice Beam,1581.25,837.5
+789,5,0.83,6,0.7,131,Lapras,85,62,53,53,Frost Breath,1383.75,Dragon Pulse,1460,586.25
+792,6,0.82,2,0.9,131,Lapras,85,61,53,69,Ice Shard,1331.25,Dragon Pulse,1437.5,756.25
+795,1,1,1,1,132,Ditto,18,8,35,5,Pound,1618.75,Struggle,1178.75,450
+801,1,1,2,0.93,133,Eevee,24,12,37,10,Tackle,1350,Body Slam,1640,670
+799,2,0.82,1,1,133,Eevee,24,10,30,11,Tackle,1350,Dig,1195,720
+800,2,0.82,3,0.9,133,Eevee,24,10,30,10,Tackle,1350,Swift,1200,645
+798,4,0.82,5,0.87,133,Eevee,24,9,30,9,Quick Attack,937.5,Body Slam,1337.5,625
+796,5,0.63,3,0.9,133,Eevee,24,7,23,10,Quick Attack,937.5,Dig,1037.5,645
+797,6,0.61,6,0.82,133,Eevee,24,7,22,9,Quick Attack,937.5,Swift,1000,587.5
+803,1,1,2,0.95,134,Vaporeon,75,70,69,40,Water Gun,1500,Hydro Pump,1882.5,495
+804,2,0.9,3,0.93,134,Vaporeon,75,63,62,39,Water Gun,1500,Aqua Tail,1698.75,487.5
+802,3,0.8,1,1,134,Vaporeon,75,56,55,42,Water Gun,1500,Water Pulse,1268.75,523.75
+807,1,1,3,0.85,135,Jolteon,39,31,59,20,Thunder Shock,1037.5,Thunder,1562.5,462.5
+806,2,0.98,1,1,135,Jolteon,39,30,58,23,Thunder Shock,1037.5,Thunderbolt,1537.5,543.75
+805,3,0.81,2,0.91,135,Jolteon,39,25,48,21,Thunder Shock,1037.5,Discharge,1262.5,493.75
+808,1,1,2,0.9,136,Flareon,40,40,75,33,Ember,1187.5,Fire Blast,1600,612.5
+809,2,0.93,1,1,136,Flareon,40,38,70,37,Ember,1187.5,Flamethrower,1493.75,681.25
+810,3,0.92,3,0.83,136,Flareon,40,37,69,30,Ember,1187.5,Heat Wave,1475,562.5
+815,1,1,1,1,137,Porygon,35,20,41,21,Tackle,1350,Signal Beam,1305,675
+814,1,1,2,0.94,137,Porygon,35,20,41,20,Tackle,1350,Psybeam,1100,635
+816,1,1,3,0.92,137,Porygon,35,20,41,19,Tackle,1350,Discharge,1275,620
+818,4,0.88,5,0.84,137,Porygon,35,17,36,18,Zen Headbutt,1140,Signal Beam,1185,570
+819,5,0.85,8,0.81,137,Porygon,35,17,35,17,Zen Headbutt,1140,Discharge,1150,545
+817,6,0.84,9,0.81,137,Porygon,35,16,35,17,Zen Headbutt,1140,Psybeam,1024,544
+812,7,0.8,4,0.87,137,Porygon,35,16,33,18,Quick Attack,937.5,Signal Beam,1085,590
+813,8,0.77,7,0.82,137,Porygon,35,15,32,17,Quick Attack,937.5,Discharge,1037.5,555
+811,9,0.69,6,0.83,137,Porygon,35,13,28,17,Quick Attack,937.5,Psybeam,922.5,557.5
+822,1,1,2,0.93,138,Omanyte,19,10,39,7,Water Gun,1500,Rock Tomb,1140,480
+821,1,1,3,0.92,138,Omanyte,19,10,39,6,Water Gun,1500,Brine,1241.25,475
+820,1,1,1,1,138,Omanyte,19,10,39,7,Water Gun,1500,Ancient Power,1210,516.25
+823,4,0.72,4,0.91,138,Omanyte,19,7,28,6,Mud Shot,1086,Ancient Power,1072,468.25
+825,4,0.72,5,0.83,138,Omanyte,19,7,28,6,Mud Shot,1086,Rock Tomb,1003.5,430.5
+824,4,0.72,6,0.83,138,Omanyte,19,7,28,6,Mud Shot,1086,Brine,1081,430
+830,1,1,7,0.58,139,Omastar,49,44,67,25,Water Gun,1500,Hydro Pump,1882.5,495
+831,2,0.85,4,0.72,139,Omastar,49,37,57,30,Water Gun,1500,Rock Slide,1607.5,607.5
+827,3,0.82,2,0.84,139,Omastar,49,36,55,36,Rock Throw,1095,Hydro Pump,1552.5,712.5
+833,4,0.82,9,0.51,139,Omastar,49,36,55,22,Mud Shot,1086,Hydro Pump,1549.5,435
+829,5,0.8,6,0.61,139,Omastar,49,35,53,26,Water Gun,1500,Ancient Power,1210,516.25
+834,6,0.75,5,0.65,139,Omastar,49,33,50,28,Mud Shot,1086,Rock Slide,1417.5,555
+828,7,0.74,1,1,139,Omastar,49,32,49,42,Rock Throw,1095,Rock Slide,1400,847.5
+826,8,0.58,3,0.82,139,Omastar,49,25,39,35,Rock Throw,1095,Ancient Power,1076.25,692.5
+832,9,0.58,8,0.55,139,Omastar,49,25,38,23,Mud Shot,1086,Ancient Power,1072,468.25
+835,1,1,2,0.99,140,Kabuto,14,7,35,5,Scratch,1200,Ancient Power,1108,474.25
+837,1,1,5,0.91,140,Kabuto,14,7,35,5,Scratch,1200,Rock Tomb,1039.5,436.5
+836,1,1,1,1,140,Kabuto,14,7,35,6,Scratch,1200,Aqua Jet,1126.75,480.5
+839,4,0.91,4,0.95,140,Kabuto,14,6,31,5,Mud Shot,1086,Aqua Jet,1089.5,455.25
+838,5,0.91,3,0.97,140,Kabuto,14,6,31,5,Mud Shot,1086,Ancient Power,1072,468.25
+840,5,0.91,6,0.9,140,Kabuto,14,6,31,5,Mud Shot,1086,Rock Tomb,1003.5,430.5
+843,1,1,3,0.88,141,Kabutops,39,31,59,17,Mud Shot,1086,Stone Edge,1574,416
+846,2,0.89,6,0.66,141,Kabutops,39,28,52,13,Fury Cutter,750,Stone Edge,1407,314
+842,3,0.72,1,1,141,Kabutops,39,22,42,20,Mud Shot,1086,Water Pulse,1127.75,474.25
+841,4,0.69,2,0.99,141,Kabutops,39,21,40,20,Mud Shot,1086,Ancient Power,1072,468.25
+845,5,0.65,4,0.84,141,Kabutops,39,20,38,17,Fury Cutter,750,Water Pulse,1024.5,396.25
+844,6,0.62,5,0.83,141,Kabutops,39,19,36,16,Fury Cutter,750,Ancient Power,968.75,393.25
+852,1,1,5,0.68,142,Aerodactyl,45,34,56,21,Bite,1200,Hyper Beam,1578,450
+849,2,0.89,2,0.95,142,Aerodactyl,45,30,50,29,Steel Wing,1125,Hyper Beam,1410,630
+850,3,0.76,4,0.71,142,Aerodactyl,45,26,43,22,Bite,1200,Ancient Power,1108,474.25
+851,3,0.76,6,0.61,142,Aerodactyl,45,26,43,19,Bite,1200,Iron Head,1200,408
+848,5,0.73,3,0.9,142,Aerodactyl,45,25,41,28,Steel Wing,1125,Iron Head,1155,600
+847,6,0.71,1,1,142,Aerodactyl,45,24,40,31,Steel Wing,1125,Ancient Power,1092.5,663.75
+857,1,1,4,0.73,143,Snorlax,100,79,59,49,Lick,1000,Hyper Beam,1665,475
+854,2,0.95,1,1,143,Snorlax,100,75,56,66,Zen Headbutt,1140,Hyper Beam,1578,648
+856,3,0.88,5,0.59,143,Snorlax,100,70,52,39,Lick,1000,Body Slam,1470,380
+853,4,0.87,2,0.92,143,Snorlax,100,69,51,61,Zen Headbutt,1140,Body Slam,1452,598
+858,5,0.82,5,0.59,143,Snorlax,100,65,48,39,Lick,1000,Earthquake,1370,380
+855,6,0.82,3,0.85,143,Snorlax,100,65,48,56,Zen Headbutt,1140,Earthquake,1364,548
+861,1,1,2,0.94,144,Articuno,75,70,69,52,Frost Breath,1383.75,Blizzard,1762.5,610
+859,2,0.92,1,1,144,Articuno,75,64,63,55,Frost Breath,1383.75,Ice Beam,1622.5,651.25
+860,3,0.79,3,0.78,144,Articuno,75,55,54,43,Frost Breath,1383.75,Icy Wind,952.5,508.75
+864,1,1,3,0.85,145,Zapdos,60,58,71,37,Thunder Shock,1037.5,Thunder,1562.5,462.5
+863,2,0.98,1,1,145,Zapdos,60,57,70,43,Thunder Shock,1037.5,Thunderbolt,1537.5,543.75
+862,3,0.81,2,0.91,145,Zapdos,60,47,58,39,Thunder Shock,1037.5,Discharge,1262.5,493.75
+865,1,1,2,0.9,146,Moltres,60,62,76,51,Ember,1187.5,Fire Blast,1600,612.5
+867,2,0.93,1,1,146,Moltres,60,58,71,57,Ember,1187.5,Flamethrower,1493.75,681.25
+866,3,0.92,3,0.83,146,Moltres,60,57,70,47,Ember,1187.5,Heat Wave,1475,562.5
+870,1,1,2,0.9,147,Dratini,15,8,38,5,Dragon Breath,1500,Aqua Tail,1530,442.5
+868,2,0.98,3,0.79,147,Dratini,15,8,38,4,Dragon Breath,1500,Wrap,820,387.5
+869,2,0.98,1,1,147,Dratini,15,8,38,5,Dragon Breath,1500,Twister,1143.75,491.25
+873,1,1,1,1,148,Dragonair,32,25,59,17,Dragon Breath,1500,Dragon Pulse,1753.75,572.5
+872,2,0.87,2,0.77,148,Dragonair,32,22,51,13,Dragon Breath,1500,Aqua Tail,1530,442.5
+871,3,0.86,3,0.68,148,Dragonair,32,21,50,12,Dragon Breath,1500,Wrap,820,387.5
+875,1,1,5,0.67,149,Dragonite,66,78,87,48,Dragon Breath,1500,Hyper Beam,1762.5,502.5
+874,2,1,4,0.76,149,Dragonite,66,78,86,55,Dragon Breath,1500,Dragon Pulse,1753.75,572.5
+876,3,0.98,6,0.65,149,Dragonite,66,77,85,46,Dragon Breath,1500,Dragon Claw,1733.75,488.75
+877,4,0.84,1,1,149,Dragonite,66,65,72,72,Steel Wing,1125,Dragon Pulse,1472.5,751.25
+878,5,0.8,3,0.84,149,Dragonite,66,62,69,60,Steel Wing,1125,Hyper Beam,1410,630
+879,6,0.79,2,0.87,149,Dragonite,66,62,69,62,Steel Wing,1125,Dragon Claw,1393.75,652.5
+882,1,1,5,0.65,150,Mewtwo,74,100,100,65,Psycho Cut,1531.25,Hyper Beam,1776.25,537.5
+880,2,1,4,0.68,150,Mewtwo,74,99,100,68,Psycho Cut,1531.25,Psychic,1768.75,563.75
+883,3,0.87,1,1,150,Mewtwo,74,86,86,100,Confusion,1237.5,Psychic,1543.75,825
+881,4,0.86,6,0.65,150,Mewtwo,74,86,86,64,Psycho Cut,1531.25,Shadow Ball,1383.75,532.5
+885,5,0.84,3,0.86,150,Mewtwo,74,84,84,85,Confusion,1237.5,Hyper Beam,1500,708.75
+884,6,0.7,2,0.89,150,Mewtwo,74,70,70,89,Confusion,1237.5,Shadow Ball,1248.75,735
+893,1,1,2,0.95,151,Mew,76,73,71,46,Pound,1295,Solar Beam,1645,485
+894,2,1,5,0.87,151,Mew,76,73,71,42,Pound,1295,Blizzard,1640,445
+895,3,0.99,2,0.95,151,Mew,76,73,71,46,Pound,1295,Hyper Beam,1631,485
+888,4,0.99,1,1,151,Mew,76,72,71,49,Pound,1295,Psychic,1628.75,513
+892,5,0.96,5,0.87,151,Mew,76,70,68,42,Pound,1295,Fire Blast,1575,445
+887,6,0.95,5,0.87,151,Mew,76,70,68,42,Pound,1295,Earthquake,1568,445
+890,7,0.94,5,0.87,151,Mew,76,69,67,42,Pound,1295,Thunder,1554,445
+886,8,0.94,10,0.8,151,Mew,76,69,67,39,Pound,1295,Hurricane,1550,412
+891,9,0.89,9,0.81,151,Mew,76,65,64,40,Pound,1295,Moonblast,1470,415
+889,10,0.87,4,0.94,151,Mew,76,64,62,46,Pound,1295,Dragon Pulse,1438,484
