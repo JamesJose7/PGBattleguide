@@ -44,6 +44,7 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_a"
+            fab:fab_icon="@drawable/tankiness"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#fff"
@@ -54,6 +55,7 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_b"
+            fab:fab_icon="@drawable/duel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#fff"
@@ -64,6 +66,7 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_c"
+            fab:fab_icon="@drawable/defense"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#fff"
@@ -74,6 +77,7 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_d"
+            fab:fab_icon="@drawable/attack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#fff"
@@ -84,6 +88,7 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_e"
+            fab:fab_icon="@drawable/number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#fff"

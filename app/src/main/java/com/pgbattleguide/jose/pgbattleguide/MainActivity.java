@@ -26,6 +26,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 import com.pgbattleguide.jose.pgbattleguide.controller.CSVReader;
 import com.pgbattleguide.jose.pgbattleguide.model.CustomComparator;
 import com.pgbattleguide.jose.pgbattleguide.model.PokemonData;
@@ -48,12 +49,14 @@ public class MainActivity extends AppCompatActivity {
     private static Point mSize;
 
 
+    public static final String POKE_STAT = "Poke stat";
     public static final String POKE_URI = "Poke uri";
     public static final String POKE_NO = "Poke number";
     public static final String PKMN_DRAWABLE_DIR = "com.pgbattleguide.jose.pgbattleguide:drawable/p";
 
     protected EditText searchBar;
     protected FloatingActionButton fab;
+    protected FloatingActionsMenu fabm;
     protected ImageView mSearchButton;
     protected RelativeLayout mMainContainer;
     private GridLayoutManager lLayout;
@@ -123,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        fabm = (FloatingActionsMenu) findViewById(R.id.multiple_actions);
         /*fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -198,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
         mQueryString = searchBar.getText().toString();
     }
 
-    private void updateDisplay(boolean isFiltered) {
+    /*private void updateDisplay(boolean isFiltered) {
 
         int row = 0;
         int col = 0;
@@ -292,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-    }
+    }*/
 
     public void sortPokemonBy(CustomComparator.Order sortingBy) {
         CustomComparator comparator = new CustomComparator();
@@ -322,39 +326,34 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public boolean isNetworkAvailable() {
-        ConnectivityManager manager = (ConnectivityManager)
-                getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = manager.getActiveNetworkInfo();
-        boolean isAvailable = false;
-        if (networkInfo != null && networkInfo.isConnected()) {
-            isAvailable = true;
-        }
-
-        return isAvailable;
-    }
-
 
     public void filterClick(View view) {
         switch (view.getId()) {
             case R.id.action_a:
                 sortPokemonBy(CustomComparator.Order.Tankiness);
+                PokemonData.setCurrentSort(CustomComparator.Order.Tankiness);
                 break;
             case R.id.action_b:
                 sortPokemonBy(CustomComparator.Order.Duel);
+                PokemonData.setCurrentSort(CustomComparator.Order.Duel);
                 break;
             case R.id.action_c:
                 sortPokemonBy(CustomComparator.Order.Defense);
+                PokemonData.setCurrentSort(CustomComparator.Order.Defense);
                 break;
             case R.id.action_d:
                 sortPokemonBy(CustomComparator.Order.Offense);
+                PokemonData.setCurrentSort(CustomComparator.Order.Offense);
                 break;
             case R.id.action_e:
                 sortPokemonBy(CustomComparator.Order.Number);
+                PokemonData.setCurrentSort(CustomComparator.Order.Number);
                 break;
             default:
                 sortPokemonBy(CustomComparator.Order.Number);
+                PokemonData.setCurrentSort(CustomComparator.Order.Number);
         }
+        fabm.collapse();
 
         getQuery();
         getFilteredPokemon();

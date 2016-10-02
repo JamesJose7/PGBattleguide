@@ -6,6 +6,7 @@ import java.util.List;
  * Created by Jose on 29/09/2016.
  */
 public class PokemonData {
+
     private int mNumber;
     private String mName;
     private List<Integer> mTankiness;
@@ -18,6 +19,8 @@ public class PokemonData {
     private int mMaxOffense;
     private int mPhotoID;
 
+    private static CustomComparator.Order mCurrentSort;
+
     public PokemonData(int number, String name, List<Integer> tankiness, List<Integer> duel,
                        List<Integer> defense, List<Integer> offense, int photoID) {
         mNumber = number;
@@ -29,6 +32,7 @@ public class PokemonData {
         mPhotoID = photoID;
 
         getMaxStats();
+        mCurrentSort = CustomComparator.Order.Number;
     }
 
     public int getNumber() {
@@ -73,6 +77,14 @@ public class PokemonData {
 
     public int getPhotoID() {
         return mPhotoID;
+    }
+
+    public static CustomComparator.Order getCurrentSort() {
+        return mCurrentSort;
+    }
+
+    public static void setCurrentSort(CustomComparator.Order currentSort) {
+        mCurrentSort = currentSort;
     }
 
     private void getMaxStats() {

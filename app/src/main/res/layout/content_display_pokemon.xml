@@ -21,8 +21,8 @@
         android:gravity="center"/>
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/poke_pic"
         android:layout_below="@id/poke_name"
         android:layout_centerHorizontal="true"/>
@@ -30,7 +30,72 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/poke_pic">
+        android:layout_below="@id/poke_pic"
+        android:id="@+id/offense_layout"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/offense_table"
+                android:stretchColumns="0, 1, 2">
+                <TableRow>
+                    <TextView
+                        android:text="Rank"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="%ile"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="Basic Attack"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="Charge Attack"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="1"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="32"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="32"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                    <TextView
+                        android:text="100"
+                        android:layout_gravity="center"
+                        android:padding="3dp"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/poke_pic"
+        android:id="@+id/tankiness_layout"
+        android:visibility="invisible">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -38,7 +103,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description"/>
+                android:layout_marginTop="10dp"
+                android:text="#"
+                android:textSize="130sp"
+                android:gravity="center"
+                android:id="@+id/tank_number"/>
         </LinearLayout>
     </ScrollView>
 
